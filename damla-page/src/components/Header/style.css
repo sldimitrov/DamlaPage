@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+#damla-page {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#logoImg {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 20px
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #damla-page {
+    font-size: 18px;
+  }
+}
+
+a:hover {
+  color: rgb(164, 164, 164);
+}
+
+li {
+  font-size: 18px;
+}
+

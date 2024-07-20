@@ -1,7 +1,7 @@
 export default function Footer() {
   const customStyle = {
-    width: `23px`,
-    height: `23px`, // Similarly, set the height dynamically
+    width: `28px`,
+    height: `28px`, // Similarly, set the height dynamically
   };
 
   return (
@@ -13,12 +13,10 @@ export default function Footer() {
               Damla's Page
             </h3>
             <p>
-              Дамла Сезгин Кемик е родена на 2 април 2005 година, в град Айтос.
-              От ранна детска възраст проявява интерес към изкуството.лауреат на
-              различни конкурси в България и по целия свят в сферата на
-              литературата и изкуството. Освен с литературните си постижения
-              Дамла набра популярност и със своя макет на Айфеловата кула.
-              Новината е отразена по БНТ, БТВ, Нова ТВ, МОН и др.
+              Родена на 2 април 2005 година, в град Айтос. От ранна детска
+              възраст проявява интерес към изкуството. Лауреат на различни
+              конкурси в България и по целия свят в сферата на литературата и
+              изкуството.
             </p>
           </div>
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
@@ -81,7 +79,7 @@ export default function Footer() {
               </a>
             </p>
           </div>
-          <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 mb-3">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
               Contact
             </h5>
@@ -96,9 +94,9 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <hr className="mb-4" />
-        <div className="rob align-items-center">
-          <div className="col-md-7 col-lg-8">
+        <hr className="mb-4 mt-3" />
+        <div className=" flex justify-around">
+          <div className="w-64">
             <p>
               Copyright 2020 All rights reserved by:
               <a href="#">
@@ -110,11 +108,7 @@ export default function Footer() {
             <div className="text-center text-md-right">
               <ul className="list-unstyled list-inline">
                 <li className="list-inline-item">
-                  <a
-                    href="#"
-                    className="btn-floating btn-sm text-white"
-                    style={customStyle}
-                  >
+                  <a href="#" className="btn-floating btn-sm text-white">
                     <i className="fab fa-facebook"></i>
                   </a>
                 </li>

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+#heading {
+  margin-left: 10px;
+  font-size: 35px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#sub-title {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 20px;
+}
+
+column {
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  border: 2px solid gold;
+  margin-bottom: 3px;
+}
+
+#writing-hand {
+  
+}
