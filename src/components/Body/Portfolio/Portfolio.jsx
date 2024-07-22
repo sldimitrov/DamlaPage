@@ -1,7 +1,10 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import SectionTemplate from "../SectionTemplate";
-import workImg from "../../../pictures/almanah.jpg";
-import Modal from "../Modal";
+import almanahImg from "../../../pictures/almanah.jpg";
+import anthologyImg from "../../../pictures/anthology.jpg";
+import anthologyBlueImg from "../../../pictures/anthologyBlue.jpg";
+import Card from "./Card";
 
 export default function Portfolio() {
   const [openModal, setOpenModal] = useState(false);
@@ -10,23 +13,38 @@ export default function Portfolio() {
   return (
     <SectionTemplate>
       <div className="flex justify-center">
-        <h2 className="text-black text-lg" id="works">
-          Творби
-        </h2>
+        <header className="flex items-center flex-col">
+          <h2 className="text-black text-lg mt-3" id="works">
+            Творби
+          </h2>
+          <h2 className="text-black text-lg mt-3" id="works">
+            Издадени сборници
+          </h2>
+        </header>
       </div>
-      <div class="card" id="card1">
-        <img src={workImg} class="card-img-top" alt="almanah book" />
-        <div class="card-body">
-          <h5 class="card-title">АЛМАНАХ</h5>
-          <p class="card-text">
-            Вътре се помещава разказът ми ,,Обещавам". Той идва заедно с
-            наградата ми на първи национален конкурс ,,Янаки Петров"
-          </p>
-          <button className="flex justify-center w-24 mt-2 bg-blue-300 rounded-md p-2">
-            Click me
-          </button>
-        </div>
-      </div>
+      <section className="flex w-full justify-between mt-5">
+        <Card
+          path={"/almanah"}
+          img={almanahImg}
+          title={"АЛМАНАХ"}
+          description='Вътре се помещава разказът ми ,,Обещавам". Той идва заедно с
+            наградата ми на първи национален конкурс ,,Янаки Петров"'
+        />
+        <Card
+          path={"/almanah"}
+          img={anthologyImg}
+          title={"АНТОЛОГИЯ 2023"}
+          description='Вътре се помещава разказът ми ,,Обещавам". Той идва заедно с
+            наградата ми на първи национален конкурс ,,Янаки Петров"'
+        />
+        <Card
+          path={"/almanah"}
+          img={anthologyBlueImg}
+          title={"АНТОЛОГИЯ 2024"}
+          description='Вътре се помещава разказът ми ,,Обещавам". Той идва заедно с
+            наградата ми на първи национален конкурс ,,Янаки Петров"'
+        />
+      </section>
     </SectionTemplate>
   );
 }

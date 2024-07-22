@@ -1,5 +1,3 @@
-import logoImg from "../../pictures/logo.svg";
-
 export default function Header() {
   return (
     <nav className="h-20 flex justify-evenly bg-blue-700">
@@ -29,7 +27,7 @@ export default function Header() {
 
       <ul className="w-80 h-10 mt-8 flex justify-around">
         <li>
-          <a href="#">Начало</a>
+          <a href="/">Начало</a>
         </li>
         <li>
           <a href="#works">Творби</a>
