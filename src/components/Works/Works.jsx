@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import SectionTemplate from "../Home/SectionTemplate";
 import almanahImg from "../../pictures/almanah.jpg";
 import anthologyImg from "../../pictures/anthology.jpg";
@@ -5,6 +6,10 @@ import anthologyBlueImg from "../../pictures/anthologyBlue.jpg";
 import Card from "./Card";
 
 export default function Works() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <SectionTemplate>
       <div className="flex justify-center">

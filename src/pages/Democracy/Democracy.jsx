@@ -1,9 +1,15 @@
+import { useEffect } from "react";
 import PageTemplate from "../PageTemplate";
 
 export default function Democracy() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <PageTemplate
       title="Democracy"
+      nextPath="/almanah"
       text={
         <p>
           I guess my favorite color is brown. It reminds me of the autumn blaze.

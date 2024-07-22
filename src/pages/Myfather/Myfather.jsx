@@ -1,9 +1,15 @@
+import { useEffect } from "react";
 import PageTemplate from "../PageTemplate";
 
 export default function Myfather() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <PageTemplate
       title="MY FATHER MY HOPE"
+      nextPath="/democracy"
       text={
         <p>
           My father- my hope` Kabul was a beautiful city until the war. So was

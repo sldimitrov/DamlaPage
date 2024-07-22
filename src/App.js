@@ -1,4 +1,8 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  ScrollRestoration,
+} from "react-router-dom";
 import Home from "./components/Home";
 import Works from "./components/Works";
 import Footer from "./components/Footer";
@@ -20,7 +24,9 @@ function App() {
   return (
     <>
       <Header />
-      <RouterProvider router={router} />
+      <RouterProvider router={router}>
+        {/* <ScrollRestoration /> */}
+      </RouterProvider>
       <Footer />
     </>
   );

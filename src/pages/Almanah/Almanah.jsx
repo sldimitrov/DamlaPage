@@ -1,9 +1,15 @@
+import { useEffect } from "react";
 import PageTemplate from "../PageTemplate";
 
 export default function Almanah() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <PageTemplate
       title=',,Обещавам"'
+      nextPath="/Myfather"
       text={
         <p>
           &ensp; Обещавам! Преди войната Кабул беше красив град. Сега също е, но

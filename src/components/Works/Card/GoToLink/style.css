@@ -1,0 +1,7 @@
+#goToBtn {
+  color: white;
+}
+
+#goToBtn:hover {
+  background-color: rgb(6, 85, 213);
+}
