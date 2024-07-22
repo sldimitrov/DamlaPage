@@ -1,12 +1,11 @@
-import SectionTemplate from "../../components/Body/SectionTemplate";
+import PageTemplate from "../PageTemplate";
 
 export default function Democracy() {
   return (
-    <SectionTemplate>
-      <div className="flex h-100 flex-col">
-        <h1 className="text-black text-center mt-10">Democracy</h1>
-        <br />
-        <p className="text-black text-left">
+    <PageTemplate
+      title="Democracy"
+      text={
+        <p>
           I guess my favorite color is brown. It reminds me of the autumn blaze.
           Red, orange, yellow- every leaf tells me its story, fluttering from
           the tree. But my story began and ended quickly like a Sunday morning.
@@ -160,7 +159,7 @@ export default function Democracy() {
           question- what people said after you killed me, mother? Till the next
           eclipse, my moon!
         </p>
-      </div>
-    </SectionTemplate>
+      }
+    />
   );
 }

@@ -1,11 +1,11 @@
-import SectionTemplate from "../../components/Body/SectionTemplate";
+import PageTemplate from "../PageTemplate";
 
 export default function Almanah() {
   return (
-    <SectionTemplate>
-      <div className="flex h-100 flex-col">
-        <h1 className="text-black text-center mt-10">,,Обещавам"</h1>
-        <p className="text-black text-left">
+    <PageTemplate
+      title=',,Обещавам"'
+      text={
+        <p>
           &ensp; Обещавам! Преди войната Кабул беше красив град. Сега също е, но
           градът просто загуби блясъка си, когато останах без роднини и близки.
           Кафяви равнини, сурови планини и заснежени върхове… те обграждат
@@ -84,7 +84,7 @@ export default function Almanah() {
           от предателството. Нали знаете какво казват старите- предателството
           идва от най-близките до сърцата ни хора.
         </p>
-      </div>
-    </SectionTemplate>
+      }
+    />
   );
 }

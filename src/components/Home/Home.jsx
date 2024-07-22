@@ -1,6 +1,6 @@
-import SectionTemplate from "../SectionTemplate/SectionTemplate";
+import SectionTemplate from "./SectionTemplate";
 import Gallery from "./Gallery";
-import Intro from "./Intro/Intro";
+import Intro from "./Intro";
 
 export default function Home() {
   return (

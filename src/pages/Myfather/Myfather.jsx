@@ -1,12 +1,11 @@
-import SectionTemplate from "../../components/Body/SectionTemplate";
+import PageTemplate from "../PageTemplate";
 
 export default function Myfather() {
   return (
-    <SectionTemplate>
-      <div className="flex h-100 flex-col">
-        <h1 className="text-black text-center mt-10">MY FATHER MY HOPE</h1>
-        <br />
-        <p className="text-black text-left">
+    <PageTemplate
+      title="MY FATHER MY HOPE"
+      text={
+        <p>
           My father- my hope` Kabul was a beautiful city until the war. So was
           now… the city just lost its sparkle when I was left without any
           relatives. Brown plains lead to stark mountains and snow-capped peaks
@@ -95,7 +94,7 @@ export default function Myfather() {
           me. Do you know what the saddest thing about betrayal is? It never
           comes from your enemies.
         </p>
-      </div>
-    </SectionTemplate>
+      }
+    />
   );
 }

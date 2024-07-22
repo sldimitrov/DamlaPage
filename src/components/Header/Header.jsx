@@ -27,13 +27,19 @@ export default function Header() {
 
       <ul className="w-80 h-10 mt-8 flex justify-around">
         <li>
-          <a href="/">Начало</a>
+          <a href="/" className="links">
+            Начало
+          </a>
         </li>
         <li>
-          <a href="#works">Творби</a>
+          <a href="/works" className="links">
+            Творби
+          </a>
         </li>
         <li>
-          <a href="#path">Път</a>
+          <a href="#path" className="links">
+            Път
+          </a>
         </li>
       </ul>
     </nav>

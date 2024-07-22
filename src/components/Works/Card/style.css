@@ -1,0 +1,13 @@
+#link:hover {
+  background: rgb(82, 148, 234);
+  color: white;
+}
+
+#work-title {
+  font-size: 26px;
+  opacity: 0.7;
+}
+
+#subtitle {
+  font-size: 24px;
+}

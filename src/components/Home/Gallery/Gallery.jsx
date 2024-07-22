@@ -1,9 +1,9 @@
-import bodyImg from "../../../../pictures/profile.jpg";
-import portImg from "../../../../pictures/redDressProfile.jpg";
-import universityImg from "../../../../pictures/universityReward.jpg";
-import booksImg from "../../../../pictures/anthologyBlue.jpg";
-import writingHand from "../../../../pictures/anthology.jpg";
-import painting from "../../../../pictures/almanah.jpg";
+import bodyImg from "../../../pictures/profile.jpg";
+import portImg from "../../../pictures/redDressProfile.jpg";
+import universityImg from "../../../pictures/universityReward.jpg";
+import booksImg from "../../../pictures/anthologyBlue.jpg";
+import writingHand from "../../../pictures/anthology.jpg";
+import painting from "../../../pictures/almanah.jpg";
 import Photo from "./Photo";
 
 export default function Gallery() {
