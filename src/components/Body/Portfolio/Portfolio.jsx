@@ -31,14 +31,14 @@ export default function Portfolio() {
             наградата ми на първи национален конкурс ,,Янаки Петров"'
         />
         <Card
-          path={"/almanah"}
+          path={"/Myfather"}
           img={anthologyImg}
           title={"АНТОЛОГИЯ 2023"}
           description='Вътре се помещава разказът ми ,,Обещавам". Той идва заедно с
             наградата ми на първи национален конкурс ,,Янаки Петров"'
         />
         <Card
-          path={"/almanah"}
+          path={"/democracy"}
           img={anthologyBlueImg}
           title={"АНТОЛОГИЯ 2024"}
           description='Вътре се помещава разказът ми ,,Обещавам". Той идва заедно с

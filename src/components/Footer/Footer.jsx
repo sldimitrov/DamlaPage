@@ -108,13 +108,21 @@ export default function Footer() {
             <div className="text-center text-md-right">
               <ul className="list-unstyled list-inline">
                 <li className="list-inline-item">
-                  <a href="#" className="btn-floating btn-sm text-white">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/profile.php?id=100049866423323"
+                    className="btn-floating btn-sm text-white"
+                  >
                     <i className="fab fa-facebook"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#" className="btn-floating btn-sm text-white">
-                    <i className="fab fa-google-plus"></i>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/d_kemik05/"
+                    className="btn-floating btn-sm text-white"
+                  >
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">

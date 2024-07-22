@@ -20,11 +20,6 @@ export default function Gallery() {
           idNumber={"writing-hand"}
           alt={"A man writing something on a paper"}
         />
-        <Photo
-          srcPic={portImg}
-          idNumber={"profile-img"}
-          alt={"Damla at her photo-session in Pomorie's port"}
-        />
       </div>
       <div className="column">
         <Photo
@@ -33,14 +28,9 @@ export default function Gallery() {
           alt={"Damla in front of free university in Bourgas"}
         />
         <Photo
-          srcPic={universityImg}
-          idNumber={"none"}
-          alt={"A man writing something on a paper"}
-        />
-        <Photo
-          srcPic={booksImg}
-          idNumber={"writing-hand"}
-          alt={"A man writing something on a paper"}
+          srcPic={portImg}
+          idNumber={"profile-img"}
+          alt={"Damla at her photo-session in Pomorie's port"}
         />
       </div>
     </div>
