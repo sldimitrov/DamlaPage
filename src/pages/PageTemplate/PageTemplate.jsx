@@ -1,17 +1,18 @@
 import SectionTemplate from "../../components/Home/SectionTemplate";
 import GoToLink from "../../components/Works/Card/GoToLink/GoToLink";
 
-export default function PageTemplate({ title, text, nextPath }) {
+export default function PageTemplate({ title, text, prevPath, nextPath }) {
   return (
     <SectionTemplate>
       <div className="flex h-100 flex-col">
         <h1 className="text-black text-center mt-10" id="text-title">
-          {title}
+          <i>{title}</i>
         </h1>
         <p className="text-black text-left">{text}</p>
         <div className="flex gap-5">
+          <GoToLink path={prevPath} text="ПРЕДИШЕН РАЗКАЗ" />
           <GoToLink path="/works" text='ВЪРНИ СЕ ОБРАТНО В ,,Творби"' />
-          <GoToLink path={nextPath} text="ПРОЧЕТИ СЛЕДВАЩИЯ РАЗКАЗ" />
+          <GoToLink path={nextPath} text="СЛЕДВАЩ РАЗКАЗ" />
         </div>
       </div>
     </SectionTemplate>

@@ -14,7 +14,7 @@ export default function Card({ img, title, subtitle, description, path }) {
           {title}
         </h2>
         <h3 class="card-title" className="text-center" id="subtitle">
-          ,,{subtitle}"
+          <i>,,{subtitle}"</i>
         </h3>
         <p class="card-text p-3 m-1 mt-3 font-medium text-lg bg-slate-100 rounded-md">
           &ensp;{description}

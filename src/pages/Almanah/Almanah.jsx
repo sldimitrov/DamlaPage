@@ -9,6 +9,7 @@ export default function Almanah() {
   return (
     <PageTemplate
       title=',,Обещавам"'
+      prevPath="/democracy"
       nextPath="/Myfather"
       text={
         <p>

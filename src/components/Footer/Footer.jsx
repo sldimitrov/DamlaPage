@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="row text-center text-md-left">
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h3 className="text-uppercase mb-4 font-weight-bold text-warning">
-              Damla's Page
+              За мен
             </h3>
             <p>
               Родена на 2 април 2005 година, в град Айтос. От ранна детска
@@ -79,38 +79,44 @@ export default function Footer() {
               Полезни линкове
             </h5>
             <p>
-              <a href="#" className="text-white">
-                Профил
+              <a
+                target="_blank"
+                href="https://damlakemik.blogspot.com/"
+                className="text-white"
+              >
+                Моят Блог
               </a>
             </p>
             <p>
-              <a href="#" className="text-white">
-                Присъедини се
+              <a
+                target="_blank"
+                href="https://otvadkoritsite.wordpress.com/biblioteca/damlakemik/"
+                className="text-white"
+              >
+                Литературен клуб
               </a>
             </p>
             <p>
-              <a href="#" className="text-white">
-                Писателска дейност
-              </a>
-            </p>
-            <p>
-              <a href="#" className="text-white">
-                Помощ
+              <a
+                href="https://bpoburgas.org/archives/tag/%D0%B4%D0%B0%D0%BC%D0%BB%D0%B0-%D0%BA%D0%B5%D0%BC%D0%B8%D0%BA"
+                className="text-white"
+              >
+                Писателска общност Бургас
               </a>
             </p>
           </div>
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 mb-3">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
-              Contact
+              Контакти
             </h5>
             <p>
-              <i className="fas fa-home mr-3">Chernograd, Bourgas, 23, BG</i>
+              <i className="fas fa-home mr-3"> Chernograd, Burgas, BG</i>
             </p>
             <p>
-              <i className="fas fa-envelope mr-3">damla.s.k@abv.bg</i>
+              <i className="fas fa-envelope mr-3"> damla.s.k@abv.bg</i>
             </p>
             <p>
-              <i className="fas fa-phone mr-3">+359 88 6478698</i>
+              <i className="fas fa-phone mr-3"> +359 88 6478698</i>
             </p>
           </div>
         </div>

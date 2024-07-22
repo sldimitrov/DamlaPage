@@ -9,6 +9,7 @@ export default function Democracy() {
   return (
     <PageTemplate
       title="Democracy"
+      prevPath="/Myfather"
       nextPath="/almanah"
       text={
         <p>

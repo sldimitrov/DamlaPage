@@ -9,6 +9,7 @@ export default function Myfather() {
   return (
     <PageTemplate
       title="MY FATHER MY HOPE"
+      prevPath="/Almanah"
       nextPath="/democracy"
       text={
         <p>
