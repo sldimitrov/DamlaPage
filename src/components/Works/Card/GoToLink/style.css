@@ -5,3 +5,18 @@
 #goToBtn:hover {
   background-color: rgb(6, 85, 213);
 }
+
+@media (max-width: 555px) {
+  .nav-buttons {
+    height: 40px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .nav-buttons {
+    height: 35px;
+    font-size: 8px;
+    line-height: 0.95;
+  }
+}

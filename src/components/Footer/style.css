@@ -6,3 +6,17 @@
   color: red;
 }
 
+.bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .bottom {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -5,9 +5,9 @@ export default function GoToLink({ path, text }) {
     <Link
       to={path}
       id="goToBtn"
-      className="flex justify-center font-semibold w-full mt-2 bg-blue-500 rounded-md p-2"
+      className="nav-buttons flex justify-center font-semibold w-full mt-2 bg-blue-500 rounded-md p-2"
     >
-      {text}
+      <p className="nav-buttons text-center">{text}</p>
     </Link>
   );
 }

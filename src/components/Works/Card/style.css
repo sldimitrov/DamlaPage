@@ -11,3 +11,17 @@
 #subtitle {
   font-size: 24px;
 }
+
+@media screen and (max-width: 460px) {
+  .card {
+    max-width: 250px;
+  }
+  
+  .card-img-top {
+    width: 250px;
+  }
+
+  .card-body {
+    width: 250px;
+  }
+}

@@ -2,7 +2,7 @@ export default function About() {
   return (
     <>
       <section id="about" className="mt-5">
-        <h1 id="about-me" className="title text-5xl text-black">
+        <h1 id="about-me" className="title text-4xl text-black">
           OТНОСНО МЕН
         </h1>
         <div id="boxes-container">
