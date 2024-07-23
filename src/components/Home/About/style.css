@@ -1,0 +1,50 @@
+#boxes-container {
+  display: flex;
+  gap: 20px;
+}
+
+.list-cell {
+  display: flex;
+  background-image: linear-gradient(to left, gray, white);
+  width: 100%;
+  outline: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 275px;
+  height: 290px;
+}
+
+@media only screen and (max-width: 900px) {
+  #about-me {
+    text-align: center;
+  }
+
+  #boxes-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#writer:hover {
+  background-image: url('../../../pictures/collection/idesire.jpg');
+  box-shadow: 10px 10px lightblue;
+  padding: 5px;
+}
+
+#writer:hover > #writer-txt  {
+  display: none;
+}
+
+.list-cell:hover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-item {
+  font-size: 25px;
+  color: #000;
+}
+

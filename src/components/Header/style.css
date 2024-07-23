@@ -9,16 +9,20 @@
 }
 
 #logoImg {
-  width: 50px;
-  height: 50px;
-  margin-top: 15px;
+  width: 35px;
+  height: 35px;
+  margin-top: 23px;
   margin-left: 20px;
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #damla-page {
     font-size: 18px;
+  }
+
+  .links {
+    font-size: 12px;
   }
 }
 

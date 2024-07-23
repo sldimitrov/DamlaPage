@@ -124,7 +124,7 @@ export default function Footer() {
         <div className=" flex justify-around">
           <div className="w-64">
             <p id="copyright" className="w-72">
-              Copyright 2020 All rights reserved by: &ensp;
+              Copyright 2024 All rights reserved by: &ensp;
               <a
                 id="developer-insta"
                 href="https://www.instagram.com/sldimitrovv_/"

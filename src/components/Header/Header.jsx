@@ -1,14 +1,30 @@
+import React, { useEffect, useState } from "react";
+
 export default function Header() {
+  const [stickyClass, setStickyClass] = useState("");
+
+  const stickNavbar = () => {
+    const windowHeight = window.scrollY;
+    setStickyClass(windowHeight > 500 ? "sticky-nav" : "");
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
+    return () => {
+      window.removeEventListener("scroll", stickNavbar);
+    };
+  }, []);
+
   return (
-    <nav className="h-20 flex justify-evenly bg-blue-700">
+    <nav className="h-20 flex justify-evenly bg-blue-700 relative w-full">
       <div className="flex w-80 justify-evenly">
         <a href="/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="60"
-            height="60"
+            width="50"
+            height="50"
             fill="currentColor"
-            class="bi bi-pencil-square"
+            className="bi bi-pencil-square"
             viewBox="0 0 16 16"
             id="logoImg"
           >

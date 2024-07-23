@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import SectionTemplate from "../Home/SectionTemplate";
-import almanahImg from "../../pictures/almanah.jpg";
-import anthologyImg from "../../pictures/anthology.jpg";
-import anthologyBlueImg from "../../pictures/anthologyBlue.jpg";
+import almanahImg from "../../pictures/collection/almanah.jpg";
+import anthologyImg from "../../pictures/collection/anthology.jpg";
+import anthologyBlueImg from "../../pictures/collection/anthologyBlue.jpg";
 import Card from "./Card";
 
 export default function Works() {

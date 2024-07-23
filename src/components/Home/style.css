@@ -1,17 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
 
 #heading {
   margin-left: 10px;
-  font-size: 35px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
 #sub-title {
+  text-align: center;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 * {
