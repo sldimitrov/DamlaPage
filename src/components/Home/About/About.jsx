@@ -12,13 +12,19 @@ export default function About() {
             </li>
           </ul>
           <ul id="artist" className="list-cell">
-            <li className="list-item">Артист</li>
+            <li id="artist-txt" className="list-item">
+              Артист
+            </li>
           </ul>
           <ul id="painter" className="list-cell">
-            <li className="list-item">Художник</li>
+            <li id="painter-txt" className="list-item">
+              Художник
+            </li>
           </ul>
           <ul id="human" className="list-cell">
-            <li className="list-item">Човек</li>
+            <li id="human-txt" className="list-item">
+              Човек
+            </li>
           </ul>
         </div>
       </section>

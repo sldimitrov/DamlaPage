@@ -1,0 +1,7 @@
+#opinions-container {
+  min-height: 100%;
+}
+
+.writer {
+  max-height: 400px;
+}

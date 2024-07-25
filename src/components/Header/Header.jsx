@@ -61,7 +61,7 @@ export default function Header() {
       >
         <a href="/"></a>Damla's Page
       </label>
-      <ul>
+      <ul id="header-ul">
         <li>
           <a className="active" href="/">
             Начало

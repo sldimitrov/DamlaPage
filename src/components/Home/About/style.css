@@ -27,13 +27,56 @@
   }
 }
 
-#writer:hover {
+#writer:hover{
   background-image: url('../../../pictures/collection/idesire.jpg');
-  box-shadow: 10px 10px lightblue;
+}
+
+#artist:hover {
+  background-image: url('../../../pictures/hoverBoxes/tower.jpg');
+}
+
+#painter:hover {
+  background-image: url('../../../pictures/hoverBoxes/painting.jpg');
+}
+
+#human:hover {
+  background-image: url('../../../pictures/hoverBoxes/gallery.jpg');
+}
+
+#writer:hover, #artist:hover, #painter:hover, #human:hover {
+  box-shadow: 5px 5px 5px;
   padding: 5px;
 }
 
-#writer:hover > #writer-txt  {
+#artist:hover {
+  color: rgb(154, 63, 219);
+}
+
+#writer:hover {
+  color: rgb(6, 167, 167);
+}
+
+#painter:hover {
+  color: red;
+}
+
+#human:hover {
+  color: rgb(206, 245, 76);
+}
+
+#writer:hover > #writer-txt   {
+  display: none;
+}
+
+#artist:hover > #artist-txt {
+  display: none;
+}
+
+#painter:hover > #painter-txt {
+  display: none;
+}
+
+#human:hover > #human-txt {
   display: none;
 }
 
