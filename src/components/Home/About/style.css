@@ -49,19 +49,19 @@
 }
 
 #artist:hover {
-  color: rgb(154, 63, 219);
+  color: white;
 }
 
 #writer:hover {
-  color: rgb(6, 167, 167);
+  color: white;
 }
 
 #painter:hover {
-  color: red;
+  color: white;
 }
 
 #human:hover {
-  color: rgb(206, 245, 76);
+  color: white;
 }
 
 #writer:hover > #writer-txt   {

@@ -5,7 +5,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-dark text-white pt-5 pb-4">
+    <footer className="text-white bg-dark pt-5 pb-4">
       <div className="container text-center text-md-left ">
         <div className="row text-center text-md-left">
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -90,12 +90,22 @@ export default function Footer() {
             <p>
               <a
                 target="_blank"
+                href="https://www.svetilo.org/"
+                className="text-white"
+              >
+                Клуб Светило
+              </a>
+            </p>
+            <p>
+              <a
+                target="_blank"
                 href="https://otvadkoritsite.wordpress.com/biblioteca/damlakemik/"
                 className="text-white"
               >
                 Литературен клуб
               </a>
             </p>
+
             <p>
               <a
                 href="https://bpoburgas.org/archives/tag/%D0%B4%D0%B0%D0%BC%D0%BB%D0%B0-%D0%BA%D0%B5%D0%BC%D0%B8%D0%BA"

@@ -16,44 +16,10 @@ export default function Header() {
   }, []);
 
   return (
-    // <nav className="h-20 flex justify-evenly bg-blue-700 relative w-full">
-    //   <div className="flex w-80 justify-evenly">
-
-    //     <h1
-    //       className="h-10 text-md mt-4 text-center md-mt-5 text-3xl font-bold text-white"
-    //       id="damla-page"
-    //     >
-    //       Damla's Page
-    //     </h1>
-    //   </div>
-
-    //   <ul className="w-96 h-10 mt-8 flex justify-around">
-    //     <li>
-    //       <a href="/" className="links">
-    //         Начало
-    //       </a>
-    //     </li>
-    //     <li>
-    //       <a href="/works" className="links">
-    //         Творби
-    //       </a>
-    //     </li>
-    //     <li>
-    //       <a href="/achievements" className="links">
-    //         Постижения
-    //       </a>
-    //     </li>
-    //     <li>
-    //       <a href="/opinions" className="links">
-    //         Мнения
-    //       </a>
-    //     </li>
-    //   </ul>
-    // </nav>
-    <nav>
+    <nav id="header">
       <input type="checkbox" id="check" />
       <label htmlFor="check" className="checkbtn">
-        <i class="fas fa-angle-double-down"></i>
+        <i class="fas fa-angle-double-down" id="dropdown-icon"></i>
       </label>
       <label
         id="damla-page"
@@ -63,18 +29,24 @@ export default function Header() {
       </label>
       <ul id="header-ul">
         <li>
-          <a className="active" href="/">
+          <a className="header-a active" href="/">
             Начало
           </a>
         </li>
         <li>
-          <a href="/works">Творби</a>
+          <a className="header-a" href="/works">
+            Творби
+          </a>
         </li>
         <li>
-          <a href="/achievements">Постижения</a>
+          <a className="header-a" href="/achievements">
+            Постижения
+          </a>
         </li>
         <li>
-          <a href="opinions">Мнения</a>
+          <a className="header-a" href="opinions">
+            Мнения
+          </a>
         </li>
       </ul>
     </nav>

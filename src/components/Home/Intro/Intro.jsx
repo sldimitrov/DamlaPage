@@ -1,7 +1,10 @@
 export default function Intro() {
   return (
     <>
-      <h1 className="font-extrabold text-4xl mt-2 text-black" id="heading">
+      <h1
+        className="font-extrabold text-center text-4xl mt-3 text-black"
+        id="heading"
+      >
         Дамла Кемик
       </h1>
       <h2 className="title mt-3 text-black font-serif" id="sub-title">

@@ -12,8 +12,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(255, 255, 255);
-  color: white;
+  background-image: url('./pictures/background.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(255, 255, 255); */
+  color: white; 
 }
 
 code {

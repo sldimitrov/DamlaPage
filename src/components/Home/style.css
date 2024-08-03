@@ -35,21 +35,5 @@
   padding: 40px;
 }
 
-.title {
-  margin-bottom: 2rem;
-}
 
-.photo-gallery {
-  display: flex;
-  gap: 20px;
-}
 
-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.images {
-  border: 2px solid gold;
-  margin-bottom: 3px;
-}

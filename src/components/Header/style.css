@@ -80,6 +80,7 @@ nav ul {
   float: right;
   margin-right: 20px;
 }
+
 nav ul li {
   display: inline-block;
   line-height: 80px;
@@ -91,8 +92,12 @@ nav ul li a {
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
 }
-a.active,a:hover {
+a.active, .header-a:hover {
   background-color: #1b9bff;
   transition: .5s;
 }
