@@ -17,7 +17,10 @@ export default function Works() {
           <h2 className="text-black text-lg mt-3" id="works-title">
             Творби
           </h2>
-          <h2 className="text-black text-lg mt-3" id="works-subtitle">
+          <h2
+            className="text-black text-lg mt-3 sm:line-height: 1.25;"
+            id="works-subtitle"
+          >
             Издадени сборници
           </h2>
         </header>
