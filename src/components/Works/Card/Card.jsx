@@ -7,7 +7,7 @@ export default function Card({ img, title, subtitle, description, path }) {
   }, []);
 
   return (
-    <div className="card" id="card1">
+    <div className="card m-2" id="card1">
       <img src={img} className="card-img-top" alt="front of the book" />
       <div className="card-body">
         <h2 className="card-title text-center" id="work-title">

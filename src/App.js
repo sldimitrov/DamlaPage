@@ -6,9 +6,12 @@ import Works from "./components/Works"; // Works
 import Almanah from "./pages/Almanah/Almanah";
 import Myfather from "./pages/Myfather/Myfather";
 import Democracy from "./pages/Democracy/Democracy";
+import Coffee from "./pages/Coffee";
+import Human from "./pages/Human/Human";
 import ForMe from "./components/ForMe"; // Sections
 import Achievements from "./components/Achievements";
 import Opinions from "./components/Opinions";
+import MathLove from "./pages/MathLove";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -18,6 +21,9 @@ const router = createBrowserRouter([
   { path: "/almanah", element: <Almanah /> },
   { path: "/Myfather", element: <Myfather /> },
   { path: "/democracy", element: <Democracy /> },
+  { path: "/coffee", element: <Coffee /> },
+  { path: "/human", element: <Human /> },
+  { path: "/mathlove", element: <MathLove /> },
   { path: "/forme", element: <ForMe /> },
 ]);
 

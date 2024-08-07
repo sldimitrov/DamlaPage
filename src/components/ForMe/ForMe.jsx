@@ -5,7 +5,7 @@ export default function ForMe() {
   return (
     <>
       <SectionTemplate>
-        <div className="h-96 section-title">
+        <div id="forMePage" className="section-title">
           <h1 className="text-black text-3xl md:text-5xl text-center mt-3">
             Относно нея
           </h1>
