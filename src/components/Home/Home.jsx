@@ -12,10 +12,8 @@ export default function Home() {
           Дамла Кемик
         </h1>
         <h2 className="title mt-3 text-white font-serif mb-10" id="sub-title">
-          Родена съм да творя и да събуждам дори и най-скритите и недостъпни
-          човешки емоции!
+          Думите са моят начин да въздействам върху чувствата на хората.
         </h2>
-        <About />
         <hr className="h-3" />
         <GoToLink path="/works" text="КЪМ ТВОРБИ" />
       </div>

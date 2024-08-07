@@ -126,7 +126,7 @@ a.active, .header-a:hover {
   }
 }
 
-@media (max-width: 886px) {
+@media (max-width: 977px) {
   .checkbtn {
     display: block;
   }

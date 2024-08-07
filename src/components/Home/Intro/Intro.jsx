@@ -1,6 +1,7 @@
 export default function Intro() {
   return (
     <>
+    
       <h1
         className="font-extrabold text-center text-4xl mt-3 text-black"
         id="heading"

@@ -34,6 +34,11 @@ export default function Header() {
           </a>
         </li>
         <li>
+          <a className="header-a" href="/forme">
+            За мен
+          </a>
+        </li>
+        <li>
           <a className="header-a" href="/works">
             Творби
           </a>
