@@ -49,7 +49,7 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <a className="header-a" href="opinions">
+          <a className="header-a" href="/opinions">
             Мнения
           </a>
         </li>
