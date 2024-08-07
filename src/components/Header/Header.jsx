@@ -50,7 +50,7 @@ export default function Header() {
         </li>
         <li>
           <a className="header-a" href="/opinions">
-            Мнения
+            Отзиви
           </a>
         </li>
       </ul>

@@ -8,7 +8,7 @@ export default function Opinions() {
   return (
     <SectionTemplate>
       <section className="section-title">
-        <h1 className="text-black text-center text-4xl md:text-5xl">Мнения</h1>
+        <h1 className="text-black text-center text-4xl md:text-5xl">Отзиви</h1>
         <View
           index={1}
           photo={firstPoetPh}

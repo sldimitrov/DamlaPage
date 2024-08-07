@@ -69,7 +69,7 @@ export default function Footer() {
               </a>
             </p>
             <p>
-              <a href="#" className="text-gray-400">
+              <a href="/achievements" className="text-gray-400">
                 и още много други
               </a>
             </p>
