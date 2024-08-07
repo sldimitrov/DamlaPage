@@ -5,7 +5,7 @@
 
 #heading {
   margin-left: 10px;
-  font-size: 45px;
+  max-width: 200px;
   text-align: center;
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
@@ -16,7 +16,6 @@
 #sub-title {
   text-align: center;
   margin-left: 10px;
-  font-size: 25px;
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;

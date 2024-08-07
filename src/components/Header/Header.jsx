@@ -19,7 +19,7 @@ export default function Header() {
     <nav id="header">
       <input type="checkbox" id="check" />
       <label htmlFor="check" className="checkbtn">
-        <i class="fas fa-angle-double-down" id="dropdown-icon"></i>
+        <i className="fas fa-angle-double-down" id="dropdown-icon"></i>
       </label>
       <label
         id="damla-page"

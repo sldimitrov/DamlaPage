@@ -53,7 +53,7 @@ export default function Works() {
         <Card
           path={"/human"}
           img={eyeOpeningImg}
-          title={"Есе"}
+          title={"Разказ"}
           subtitle={"Човек вижда толкова, колкото знае"}
           description='1 място в Национален конкурс "Георги Тодоров"- 2023 година'
         />
@@ -69,7 +69,7 @@ export default function Works() {
         <Card
           path={"/coffee"}
           img={coffeeImg}
-          title={"Есе"}
+          title={"Разказ"}
           subtitle={"5 минути за кафе"}
           description="Час на смъртта- 11:11. Най-големият ми кошмар се сбъдна…"
         />
