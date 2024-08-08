@@ -15,7 +15,7 @@ export default function Home() {
             Дамла Кемик
           </h1>
           <img
-            class="rounded-full w-60 h-80 shadow-md dark:shadow-gray-300"
+            className="rounded-full w-60 h-80 shadow-md dark:shadow-gray-300"
             src={selfPhoto}
             alt="image description"
           ></img>
