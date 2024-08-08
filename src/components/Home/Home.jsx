@@ -65,11 +65,25 @@ export default function Home() {
             />
           </div>
         </section>
+        <hr className="h-1md:hidden mt-3" />
         <section id="works-info">
-          <h3 className="text-xl md:text-3xl text-center md:mt-7">
+          <h3
+            id="sub-title"
+            className="text-xl md:text-3xl text-center md:mt-7"
+          >
             Организирайте среща с писател
           </h3>
-          <h4 className="text-xl md:text-3xl text-center md:mt-7"></h4>
+          <p className="text-xl md:text-xl text-center md:mt-7">
+            Ако желаете да организирате среща на Дамла Кемик с Вашите ученици
+            изпратете мейл с&ensp;
+            <a
+              className="text-gray-300 font-serif hover:text-blue-500 underline"
+              href="/"
+            >
+              контактната ни форма
+            </a>
+            .
+          </p>
         </section>
         {/* <GoToLink path="/works" text="КЪМ ТВОРБИ" /> */}
       </div>
