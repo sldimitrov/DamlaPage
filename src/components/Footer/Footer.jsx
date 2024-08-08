@@ -6,19 +6,8 @@ export default function Footer() {
 
   return (
     <footer className="text-white bg-dark pt-5 pb-4">
-      <div className="container text-center text-md-left ">
+      <div className="container text-center pt-0 text-md-left ">
         <div className="row text-center text-md-left">
-          <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h3 className="text-uppercase mb-4 font-weight-bold text-warning">
-              За мен
-            </h3>
-            <p>
-              Родена на 2 април 2005 година, в град Айтос. От ранна детска
-              възраст проявява интерес към изкуството. Лауреат на различни
-              конкурси в България и по целия свят в сферата на литературата и
-              изкуството.
-            </p>
-          </div>
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h3 className="text-uppercase mb-4 font-weight-bold text-warning">
               Награди
@@ -158,7 +147,7 @@ export default function Footer() {
                       width="36"
                       height="36"
                       fill="currentColor"
-                      class="bi bi-facebook"
+                      className="bi bi-facebook"
                       viewBox="0 0 16 16"
                     >
                       <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
@@ -167,7 +156,7 @@ export default function Footer() {
 
                   <a
                     target="_blank"
-                    href="https://www.instagram.com/d_kemik05/"
+                    href="https://www.instagram.com/damla_kemik05/"
                     className="btn-floating btn-sm text-white"
                   >
                     <svg

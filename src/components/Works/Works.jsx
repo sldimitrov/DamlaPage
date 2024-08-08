@@ -50,6 +50,7 @@ export default function Works() {
           subtitle={"Democracy"}
           description='Творбата разказва за палестинско момиче, влюбило се във "врага", за двама млади, които ръка за ръка пресичат улиците на Йерусалим. Въпреки трудностите и жестоката съдба, дали любовта им оцелява?'
         />
+
         <Card
           path={"/human"}
           img={eyeOpeningImg}
@@ -73,6 +74,12 @@ export default function Works() {
           subtitle={"5 минути за кафе"}
           description="Час на смъртта- 11:11. Най-големият ми кошмар се сбъдна…"
         />
+        <h2
+          className="text-black leading-10 mx-auto text-lg mt-3 sm:line-height: 1.25;"
+          id="works-subtitle"
+        >
+          Есета и разкази
+        </h2>
       </section>
     </SectionTemplate>
   );

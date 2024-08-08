@@ -14,17 +14,17 @@ import Opinions from "./components/Opinions";
 import MathLove from "./pages/MathLove";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
+  { path: "/", element: <Home /> }, // Sections
+  { path: "/forme", element: <ForMe /> },
   { path: "/works", element: <Works /> },
   { path: "/achievements", element: <Achievements /> },
   { path: "/opinions", element: <Opinions /> },
-  { path: "/almanah", element: <Almanah /> },
+  { path: "/almanah", element: <Almanah /> }, // Works
   { path: "/Myfather", element: <Myfather /> },
   { path: "/democracy", element: <Democracy /> },
   { path: "/coffee", element: <Coffee /> },
   { path: "/human", element: <Human /> },
   { path: "/mathlove", element: <MathLove /> },
-  { path: "/forme", element: <ForMe /> },
 ]);
 
 // App.jsx
