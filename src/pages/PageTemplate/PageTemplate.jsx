@@ -9,9 +9,9 @@ export default function PageTemplate({ title, text, prevPath, nextPath }) {
           <i>{title}</i>
         </h1>
         <p className="text-black text-left md:m-3">{text}</p>
-        <div className="flex gap-5">
+        <div className="flex gap sm:gap-1 md:gap-5">
           <GoToLink path={prevPath} text="ПРЕДИШЕН РАЗКАЗ" />
-          <GoToLink path="/works" text='ОБРАТНО В ,,ТВОРБИ"' />
+          <GoToLink path="/works" text=',,ТВОРБИ"' />
           <GoToLink path={nextPath} text="СЛЕДВАЩ РАЗКАЗ" />
         </div>
       </div>

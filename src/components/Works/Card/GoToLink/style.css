@@ -6,17 +6,24 @@
   background-color: rgb(6, 85, 213);
 }
 
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 555px) {
   .nav-buttons {
-    height: 40px;
-    font-size: 10px;
+    height: 35px;
+    font-size: 13px;
+    line-height: 1;
   }
 }
 
 @media (max-width: 430px) {
   .nav-buttons {
-    height: 35px;
-    font-size: 8px;
-    line-height: 0.95;
+    height: 30px;
+    font-size: 10px;
+    line-height: 0.9;
   }
 }

@@ -10,7 +10,7 @@ export default function Democracy() {
     <PageTemplate
       title="Democracy"
       prevPath="/Myfather"
-      nextPath="/almanah"
+      nextPath="/human"
       text={
         <p>
           I guess my favorite color is brown. It reminds me of the autumn blaze.

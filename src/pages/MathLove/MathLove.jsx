@@ -8,9 +8,9 @@ export default function MathLove() {
 
   return (
     <PageTemplate
-      title="Човек вижда толкова, колкото знае"
-      prevPath="/Democracy"
-      nextPath="/almanah"
+      title="В любовната аритметика едно плюс едно е равно на две, а две минус едно е равно на нула"
+      prevPath="/human"
+      nextPath="/coffee"
       text={
         <p>
           &ensp; „Проста математика- колкото и плюсове да има на друго място,

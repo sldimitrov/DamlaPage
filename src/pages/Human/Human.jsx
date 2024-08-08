@@ -10,7 +10,7 @@ export default function Human() {
     <PageTemplate
       title="Човек вижда толкова, колкото знае"
       prevPath="/Democracy"
-      nextPath="/almanah"
+      nextPath="/mathlove"
       text={
         <p>
           &ensp;Живея в китно село с малки къщички, големи ниви със златни
