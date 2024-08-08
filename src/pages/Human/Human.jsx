@@ -1,10 +1,8 @@
-import { useEffect } from "react";
 import PageTemplate from "../PageTemplate";
+import useScroll from "../../hooks/useScroll";
 
 export default function Human() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  useScroll();
 
   return (
     <PageTemplate

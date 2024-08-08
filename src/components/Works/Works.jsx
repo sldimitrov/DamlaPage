@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import SectionTemplate from "../Home/SectionTemplate";
 import almanahImg from "../../pictures/collection/almanah.jpg";
 import anthologyImg from "../../pictures/collection/anthology.jpg";
@@ -7,11 +6,10 @@ import eyeOpeningImg from "../../pictures/collection/eyeWork.jpg";
 import mathImg from "../../pictures/collection/math.webp";
 import coffeeImg from "../../pictures/collection/coffee.jpg";
 import Card from "./Card";
+import useScroll from "../../hooks/useScroll";
 
 export default function Works() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  useScroll();
 
   return (
     <SectionTemplate>

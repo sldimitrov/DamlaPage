@@ -1,8 +1,8 @@
-import classNames from "classnames/bind";
 import SectionTemplate from "../Home/SectionTemplate";
+import useScroll from "../../hooks/useScroll";
 
 export default function Achievements() {
-  let pClasses = "text-black size";
+  useScroll();
 
   return (
     <SectionTemplate>

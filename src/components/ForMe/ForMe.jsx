@@ -1,7 +1,10 @@
+import useScroll from "../../hooks/useScroll";
 import SectionTemplate from "../Home/SectionTemplate";
 import GoToLink from "../Works/Card/GoToLink";
 
 export default function ForMe() {
+  useScroll();
+
   return (
     <>
       <SectionTemplate>
