@@ -1,0 +1,10 @@
+#contact-form {
+  min-height: 400px;
+  background-image: url('../../../pictures/library_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}

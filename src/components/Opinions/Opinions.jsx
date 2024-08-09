@@ -3,8 +3,11 @@ import View from "./View";
 import firstPoetPh from "../../pictures/poets/mitko.png";
 import secondPoetPh from "../../pictures/poets/kalin.jpg";
 import thirdPoetPh from "../../pictures/poets/snezhana_galcheva.jpg";
+import useScroll from "../../hooks/useScroll";
 
 export default function Opinions() {
+  useScroll();
+
   return (
     <SectionTemplate>
       <section className="section-title">
