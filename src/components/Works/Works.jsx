@@ -26,6 +26,8 @@ export default function Works() {
           </h2>
         </header>
       </div>
+      <hr className="bg-black h-0.5 mt-4" />
+
       <section id="card-section">
         <Card
           path={"/almanah"}

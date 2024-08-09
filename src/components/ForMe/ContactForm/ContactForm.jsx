@@ -1,12 +1,12 @@
 export default function ContactForm() {
   const labelClass =
-    "text-white sm:text-center text-xl font-serif pl-3 lg:text-left";
+    "text-white sm:text-center text-base md:text-xl font-serif pl-3 lg:text-left";
   const inputClass = "bg-gray-200 mt-1 h-9 w-36 md:w-56 pl-1 rounded-sm";
 
   return (
     <div id="contact-form" className="mt-6">
       <div className="form flex flex-col mx-auto w-10/12">
-        <h2 className="text-white font-semibold text-4xl font-mono text-center mb-4">
+        <h2 className="text-white mt-2 text-2xl font-semibold md:text-4xl font-mono text-center mb-4">
           Свържи се с aвтора
         </h2>
         <section className="flex flex-col items-center md:flex-row justify-between">
@@ -41,7 +41,7 @@ export default function ContactForm() {
           </div>
         </section>
 
-        <button className="text-white text-center mb-3 bg-orange-400 hover:bg-orange-600 w-32 mx-auto mt-3 rounded-md">
+        <button className="w-32 mx-auto mt-3 rounded-md text-white text-xl md:text-2xl text-center mb-3 bg-orange-400 hover:bg-orange-600">
           Изпрати
         </button>
       </div>
