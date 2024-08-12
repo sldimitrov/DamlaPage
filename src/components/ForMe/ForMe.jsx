@@ -1,5 +1,5 @@
 import useScroll from "../../hooks/useScroll";
-import SectionTemplate from "../Home/SectionTemplate";
+import SectionTemplate from "../UI/SectionTemplate";
 import GoToLink from "../Works/Card/GoToLink";
 import ContactForm from "./ContactForm";
 
@@ -8,12 +8,8 @@ export default function ForMe() {
 
   return (
     <>
-      <SectionTemplate>
+      <SectionTemplate title={"За автора"}>
         <div id="forMePage" className="section-title">
-          <h1 className="text-black text-3xl md:text-5xl text-center mt-3">
-            За автора
-          </h1>
-          <hr className="bg-black h-0.5 mt-4" />
           <p className="text-black text-center font-sans text-xl md:text-2xl mt-4 md:p-2">
             Дамла Сезгин Кемик е родена на 2 април, 2005 година, в град Айтос.
             От ранна детска възраст проявява интерес към изкуството. Рисува

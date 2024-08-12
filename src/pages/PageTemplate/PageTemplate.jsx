@@ -1,4 +1,4 @@
-import SectionTemplate from "../../components/Home/SectionTemplate";
+import SectionTemplate from "../../components/UI/SectionTemplate";
 import GoToLink from "../../components/Works/Card/GoToLink/GoToLink";
 
 export default function PageTemplate({ title, text, prevPath, nextPath }) {

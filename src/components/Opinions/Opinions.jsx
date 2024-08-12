@@ -1,4 +1,4 @@
-import SectionTemplate from "../Home/SectionTemplate";
+import SectionTemplate from "../UI/SectionTemplate";
 import View from "./View";
 import firstPoetPh from "../../pictures/poets/mitko.png";
 import secondPoetPh from "../../pictures/poets/kalin.jpg";
@@ -9,9 +9,8 @@ export default function Opinions() {
   useScroll();
 
   return (
-    <SectionTemplate>
+    <SectionTemplate title={"Отзиви"}>
       <section className="section-title">
-        <h1 className="text-black text-center text-4xl md:text-5xl">Отзиви</h1>
         <View
           index={1}
           photo={firstPoetPh}

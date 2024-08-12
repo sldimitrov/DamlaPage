@@ -1,0 +1,22 @@
+#path {
+  min-height: 800px;
+  position: relative;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#works-title {
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#works-subtitle {
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}

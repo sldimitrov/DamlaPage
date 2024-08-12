@@ -1,4 +1,4 @@
-import SectionTemplate from "../Home/SectionTemplate";
+import SectionTemplate from "../UI/SectionTemplate";
 import almanahImg from "../../pictures/collection/almanah.jpg";
 import anthologyImg from "../../pictures/collection/anthology.jpg";
 import anthologyBlueImg from "../../pictures/collection/anthologyBlue.jpg";
@@ -12,22 +12,7 @@ export default function Works() {
   useScroll();
 
   return (
-    <SectionTemplate>
-      <div className="flex justify-center">
-        <header className="flex items-center flex-col" id="portfolio">
-          <h2 className="text-black text-lg mt-3" id="works-title">
-            Творби
-          </h2>
-          <h2
-            className="text-black leading-10 text-lg mt-3 sm:line-height: 1.25;"
-            id="works-subtitle"
-          >
-            Издадени сборници
-          </h2>
-        </header>
-      </div>
-      <hr className="bg-black h-0.5 mt-4" />
-
+    <SectionTemplate title={"Творби"} subtitle="Издадени сборници">
       <section id="card-section">
         <Card
           path={"/almanah"}
