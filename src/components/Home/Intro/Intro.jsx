@@ -11,11 +11,13 @@ export default function Intro() {
         >
           Дамла Кемик
         </h1>
-        <img
-          className="rounded-full w-60 h-80 shadow-md dark:shadow-gray-300"
-          src={selfPhoto}
-          alt="image description"
-        ></img>
+        <figure className="w-60">
+          <img
+            className="rounded-full w-auto h-auto shadow-md dark:shadow-gray-300"
+            src={selfPhoto}
+            alt="image description"
+          ></img>
+        </figure>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
