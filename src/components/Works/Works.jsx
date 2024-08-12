@@ -59,12 +59,6 @@ export default function Works() {
           subtitle={"5 минути за кафе"}
           description="Час на смъртта- 11:11. Най-големият ми кошмар се сбъдна…"
         />
-        <h2
-          className="text-black leading-10 mx-auto text-lg mt-3 sm:line-height: 1.25;"
-          id="works-subtitle"
-        >
-          Есета и разкази
-        </h2>
       </section>
     </SectionTemplate>
   );
