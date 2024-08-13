@@ -25,7 +25,9 @@ export default function Header() {
         id="damla-page"
         className="logo text-md  text-center text-3xl font-bold text-white"
       >
-        <a href="/"></a>Damla's Page
+        <a href="/" className="text-white">
+          Damla's Page
+        </a>
       </label>
       <ul id="header-ul">
         <li>

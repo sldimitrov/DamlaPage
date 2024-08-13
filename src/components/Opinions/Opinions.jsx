@@ -1,4 +1,4 @@
-import SectionTemplate from "../UI/SectionTemplate";
+import SectionTemplate from "../../UI/SectionTemplate";
 import View from "./View";
 import firstPoetPh from "../../pictures/poets/mitko.png";
 import secondPoetPh from "../../pictures/poets/kalin.jpg";

@@ -1,4 +1,4 @@
-import SectionTemplate from "../UI/SectionTemplate";
+import SectionTemplate from "../../UI/SectionTemplate";
 import almanahImg from "../../pictures/collection/almanah.jpg";
 import anthologyImg from "../../pictures/collection/anthology.jpg";
 import anthologyBlueImg from "../../pictures/collection/anthologyBlue.jpg";

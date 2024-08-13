@@ -41,7 +41,7 @@ export default function ContactForm() {
             ></textarea>
           </div>
         </section>
-        <button className="w-52 md:w-48 md:h-14 md:text-3xl mx-auto mt-4 rounded-md text-white text-xl text-center mb-3 bg-cyan-400 hover:bg-cyan-600 outline hover:outline-2">
+        <button className="w-48 md:w-48 md:h-14 md:text-3xl mx-auto mt-4 rounded-md text-slate-700 text-xl text-center mb-3 bg-cyan-400 hover:bg-cyan-200 outline hover:outline-2">
           Изпрати
         </button>
       </div>
