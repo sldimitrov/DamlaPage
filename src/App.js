@@ -12,6 +12,7 @@ import ForMe from "./components/ForMe"; // Sections
 import Achievements from "./components/Achievements";
 import Opinions from "./components/Opinions";
 import MathLove from "./pages/MathLove";
+import ContactForm from "./pages/ContactForm";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> }, // Sections
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
   { path: "/coffee", element: <Coffee /> },
   { path: "/human", element: <Human /> },
   { path: "/mathlove", element: <MathLove /> },
+  { path: "/contactform", element: <ContactForm /> }, // Additional
 ]);
 
 // App.jsx
@@ -32,9 +34,7 @@ function App() {
   return (
     <>
       <Header />
-      <RouterProvider router={router}>
-        {/* <ScrollRestoration /> */}
-      </RouterProvider>
+      <RouterProvider router={router}></RouterProvider>
       <Footer />
     </>
   );

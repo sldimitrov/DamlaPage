@@ -38,7 +38,7 @@ export default function Home() {
             изпратете мейл с&ensp;
             <a
               className="text-gray-300 font-serif hover:text-blue-500 underline"
-              href="forme"
+              href="contactform"
             >
               контактната ни форма
             </a>

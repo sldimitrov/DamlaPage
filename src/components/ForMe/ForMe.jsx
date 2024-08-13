@@ -1,7 +1,6 @@
 import useScroll from "../../hooks/useScroll";
 import SectionTemplate from "../UI/SectionTemplate";
 import GoToLink from "../Works/Card/GoToLink";
-import ContactForm from "./ContactForm";
 
 export default function ForMe() {
   useScroll();
@@ -29,7 +28,6 @@ export default function ForMe() {
             text="Разгледай постиженията"
           />
         </div>
-        <ContactForm />
       </SectionTemplate>
     </>
   );
