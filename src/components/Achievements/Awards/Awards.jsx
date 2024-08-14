@@ -1,6 +1,8 @@
 import Paragraph from "../../../UI/Paragraph/Paragraph";
 import sertificates from "../../../pictures/awards/sertificates.jpg";
 import shipka from "../../../pictures/projects/Shipka.jpg";
+import talking from "../../../pictures/self/talking.jpg";
+import Layout from "./Layout/Layout";
 
 export default function Awards() {
   return (
@@ -9,78 +11,122 @@ export default function Awards() {
         За периода 2023/2024
       </h2>
       <hr className="bg-black w-full md:w-80 h-0.5 mt-2" />
-      <div className="lg:flex gap-3">
-        <img
-          className="w-96 mx-auto mt-3 rounded-3xl"
-          src={sertificates}
-          alt="all sertificates of the author"
+      <Layout
+        img={sertificates}
+        alt="all sertificates of the author"
+        flag={true}
+      >
+        <Paragraph
+          className={"bg-yellow-100 rounded-md pl-2"}
+          text='Национален литературен конкурс "Пред виното и любовта всички са покорни"- 2023 година- 1 място'
         />
-        <div>
-          <Paragraph
-            className={"bg-yellow-100 rounded-md pl-2"}
-            text='Национален литературен конкурс "Пред виното и любовта всички са покорни"- 2023 година- 1 място'
-          />
-          <Paragraph
-            className={"bg-yellow-200 rounded-md pl-2"}
-            text='Конкурс за рисунка "Героите на българската свобода"- 2023 година- 1 място'
-          />
-          <Paragraph
-            className={"bg-yellow-300 rounded-md pl-2"}
-            text='Читалищен конкурс "Георги Тодоров"- 2023 година- 1 място'
-          />
-          <Paragraph
-            className={"bg-yellow-400 rounded-md pl-2"}
-            text='Международен фестивал "Българската душа на Святата земя"- 2023 година- 1 място     '
-          />
-          <Paragraph
-            className={"bg-yellow-500 rounded-md pl-2"}
-            text='Национален ученически конкурс за стихотворение и есе на тема "Любовта е..."- 2024 година- 1 място'
-          />
-          <Paragraph
-            className={"bg-yellow-400 rounded-md pl-2"}
-            text='Конкурс "С обич за мама"- 2023 година- 1 място'
-          />
-          <Paragraph
-            className={"bg-yellow-300 rounded-md pl-2"}
-            text='Национален литературен конкурс "Млад разказвач"- 2024 година- награда на Черноморска асоциация на жените за най-добър млад участник 
+        <Paragraph
+          className={"bg-yellow-200 rounded-md pl-2"}
+          text='Конкурс за рисунка "Героите на българската свобода"- 2023 година- 1 място'
+        />
+        <Paragraph
+          className={"bg-yellow-300 rounded-md pl-2"}
+          text='Читалищен конкурс "Георги Тодоров"- 2023 година- 1 място'
+        />
+        <Paragraph
+          className={"bg-yellow-400 rounded-md pl-2"}
+          text='Международен фестивал "Българската душа на Святата земя"- 2023 година- 1 място     '
+        />
+        <Paragraph
+          className={"bg-yellow-500 rounded-md pl-2"}
+          text='Национален ученически конкурс за стихотворение и есе на тема "Любовта е..."- 2024 година- 1 място'
+        />
+        <Paragraph
+          className={"bg-yellow-400 rounded-md pl-2"}
+          text='Конкурс "С обич за мама"- 2023 година- 1 място'
+        />
+        <Paragraph
+          className={"bg-yellow-300 rounded-md pl-2"}
+          text='Национален литературен конкурс "Млад разказвач"- 2024 година- награда на Черноморска асоциация на жените за най-добър млад участник 
 Конкурс „Чудото любов“- 2024 година- 1 място'
-          />
-          <Paragraph
-            className={"bg-yellow-200 rounded-md pl-2"}
-            text='Национален конкурс по изобразително и приложно изкуство "Магията на изкуството"- 2023 година- 1 място'
-          />
-        </div>
-      </div>
-      <div className="lg:flex gap-3">
-        <div className="flex flex-col justify-around">
-          <Paragraph text='Конкурс за детска рисунка "Съвременният Бай Ганьо:- 2023 година- 2 място' />
-          <Paragraph text='Национален литературен конкурс "Мария Смилова"- 2023 година- 2 място' />
-          <Paragraph text='Международен конкурс "Иван Бързаков"- 2023 година- 2 място' />
-          <Paragraph text="Национална инициатива „Завръщане към корените” и „По обратния път на дедите ни”- 2023 година- 2 място" />
-          <Paragraph text="Литературен конкурс, посветен на личността и делото на Апостола, на тема: „Слово и дело – венецът на един живот“- 2024 година- 2 място" />
-          <Paragraph text="Национален литературен конкурс за създаване на авторски текстове на английски и немски език „Този безкраен свят”- 2024 година- 2 място" />
-        </div>
-        <img
-          className={"w-96 mx-auto mt-3 rounded-3xl"}
-          src={shipka}
-          alt="the author ship Bulgarian postament enlightened - shipka"
         />
-      </div>
-      <div>
-        <div>
-          <Paragraph text='Ученически конкурс "Ти ни трябваш и днес, Апостоле"- 2023 година- 3 място ' />
-          <Paragraph text='Конкурс "Любовта и виното"- 2023 година- 3 място' />
-          <Paragraph text='Национален литературен конкурс "И ти си в мене- ти родино моя"- 2023 година- 3 място' />
-          <Paragraph text='Ученически конкурс "Моето мнение има значение"- 2023 година- 3 място' />
-          <Paragraph text='Конкурс "По стъпките на Иван Вазов"- 2023 година- 3 място' />
-          <Paragraph text='Национален литературен конкурс "Този безкраен свят"- 2023 година- 3 място' />
-          <Paragraph text='Международен конкурс "Водата- да ускорим промяната"- 2023 година- 3 място' />
-          <Paragraph text='Онлайн конкурс за ученици "Събитие от живота на Васил Левски, което ме впечатли"- 2024 година- 3 място' />
-          <Paragraph text="Конкурс “С любов към Франция”- 2024 година- 3 място" />
-          <Paragraph text="Международен фестивал „Българска душа на Святата земя“- 2024 година-  3 място" />
-          <Paragraph text='Национален конкурс за млади художници и литератори " Да опазим планетата чиста”- 2024 година- 3 място ' />
-        </div>
-      </div>
+        <Paragraph
+          className={"bg-yellow-200 rounded-md pl-2"}
+          text='Национален конкурс по изобразително и приложно изкуство "Магията на изкуството"- 2023 година- 1 място'
+        />
+      </Layout>
+      <Layout
+        img={shipka}
+        alt={"author stand up talking to group of people"}
+        flag={false}
+      >
+        <Paragraph
+          className="bg-slate-200"
+          text='Конкурс за детска рисунка "Съвременният Бай Ганьо:- 2023 година- 2 място'
+        />
+        <Paragraph
+          className="bg-slate-300"
+          text='Национален литературен конкурс "Мария Смилова"- 2023 година- 2 място'
+        />
+        <Paragraph
+          className="bg-slate-400"
+          text='Международен конкурс "Иван Бързаков"- 2023 година- 2 място'
+        />
+        <Paragraph
+          className="bg-slate-500"
+          text="Национална инициатива „Завръщане към корените” и „По обратния път на дедите ни”- 2023 година- 2 място"
+        />
+        <Paragraph
+          className="bg-slate-400"
+          text="Литературен конкурс, посветен на личността и делото на Апостола, на тема: „Слово и дело – венецът на един живот“- 2024 година- 2 място"
+        />
+        <Paragraph
+          className="bg-slate-300"
+          text="Национален литературен конкурс за създаване на авторски текстове на английски и немски език „Този безкраен свят”- 2024 година- 2 място"
+        />{" "}
+      </Layout>
+      <Layout
+        img={talking}
+        alt={"the author talking in front of group of people"}
+        flag={true}
+      >
+        <Paragraph
+          className="bg-yellow-500"
+          text='Ученически конкурс "Ти ни трябваш и днес, Апостоле"- 2023 година- 3 място '
+        />
+        <Paragraph
+          className="bg-yellow-600"
+          text='Конкурс "Любовта и виното"- 2023 година- 3 място'
+        />
+        <Paragraph
+          className="bg-yellow-700"
+          text='Национален литературен конкурс "И ти си в мене- ти родино моя"- 2023 година- 3 място'
+        />
+        <Paragraph
+          className="bg-yellow-800"
+          text='Ученически конкурс "Моето мнение има значение"- 2023 година- 3 място'
+        />
+        <Paragraph
+          className="bg-yellow-700"
+          text='Конкурс "По стъпките на Иван Вазов"- 2023 година- 3 място'
+        />
+        <Paragraph
+          className="bg-yellow-600"
+          text='Национален литературен конкурс "Този безкраен свят"- 2023 година- 3 място'
+        />
+        <Paragraph
+          className="bg-yellow-500"
+          text='Международен конкурс "Водата- да ускорим промяната"- 2023 година- 3 място'
+        />
+        <Paragraph
+          className="bg-yellow-600"
+          text='Онлайн конкурс за ученици "Събитие от живота на Васил Левски, което ме впечатли"- 2024 година- 3 място'
+        />
+        <Paragraph
+          className="bg-yellow-700"
+          text="Конкурс “С любов към Франция”- 2024 година- 3 място"
+        />
+        <Paragraph
+          className="bg-yellow-800"
+          text='Национален конкурс за млади художници и литератори " Да опазим планетата чиста”- 2024 година- 3 място '
+        />
+      </Layout>
+
       <Paragraph text='IX национален литературен конкурс "И децата покоряват светове. Покажи, че можеш"- 2023 година-поощрителна награда' />
       <Paragraph text='Литературен конкурс за ученици от 9-12 клас и студенти, посветен на 14.02- Ден на влюбените и музикално-поетичната вечер "Любовта е сляпа- гледа не с очите, а с душата"- 2023 година- 3 място' />
       <Paragraph text='Конкурс за рисунка по случай 145 години от освобождението на България, организиран от НЧ "Люба Велич- 1905", с. Славяново, общ. Попово- 2023 година- 2 място' />
