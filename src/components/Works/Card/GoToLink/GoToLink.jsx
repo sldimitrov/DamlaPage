@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function GoToLink({ path, text }) {
+export default function GoToLink({ path, text = "" }) {
   return (
     <Link
       to={path}
