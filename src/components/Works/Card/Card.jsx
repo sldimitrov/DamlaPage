@@ -22,6 +22,7 @@ export default function Card({ img, title, subtitle, description, path }) {
         <GoToLink
           path={path}
           text="ПРОЧЕТИ МЕ"
+          textClass={"text-2xl"}
           className={"bg-cyan-400 hover:bg-cyan-500 rounded-2xl w-48 h-9"}
         />
       </div>

@@ -1,6 +1,9 @@
 import useScroll from "../../hooks/useScroll";
 import SectionTemplate from "../../UI/SectionTemplate";
 import GoToLink from "../../UI/GoToLink";
+import LightBox from "../../UI/LightBox";
+import { slides } from "./data";
+import myBook from "../../pictures/self/MeAlmanah.jpg";
 
 export default function ForMe() {
   useScroll();
@@ -22,8 +25,11 @@ export default function ForMe() {
             пръчици и шпатули. Новината е отразена по БНТ, БТВ, Нова ТВ, МОН и
             др.
           </p>
+          <LightBox slides={slides} self={myBook} />
+
           <GoToLink
-            className="mb-3"
+            textClass={"text-center text-3xl text-white font-serif"}
+            className="mt-3 w-36  bg-zinc-700 hover:bg-current  md:w-72 p-1 rounded-md mx-auto"
             path="/achievements"
             text="Разгледай постиженията"
           />

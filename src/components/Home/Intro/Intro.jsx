@@ -47,7 +47,7 @@ export default function Intro() {
             <GoToLink
               path={"/forme"}
               text={"НАУЧЕТЕ ПОВЕЧЕ"}
-              className={"bg-teal-400 hover:bg-teal-600 rounded-2xl w-48 h-9"}
+              className={"bg-blue-300 hover:bg-blue-500 rounded-2xl w-48 h-9"}
             />
           </div>
         </p>

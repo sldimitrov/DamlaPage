@@ -1,6 +1,6 @@
 import Card from "../Works/Card";
-import coffeeImg from "../../pictures/collection/coffee.jpg";
 import Intro from "./Intro";
+import coffeeImg from "../../pictures/collection/coffee.jpg";
 
 export default function Home() {
   return (

@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 
-export default function GoToLink({ path, text = "", className, ...props }) {
+export default function GoToLink({
+  path,
+  text = "",
+  className,
+  textClass,
+  ...props
+}) {
   return (
     <Link
       to={path}
@@ -8,7 +14,9 @@ export default function GoToLink({ path, text = "", className, ...props }) {
       {...props}
       className={`nav-buttons flex justify-center w-full mt-2 ${className}`}
     >
-      <p className="nav-buttons text-black text-center text-2xl">{text}</p>
+      <p className={`nav-buttons text-black text-center text-2xl ${textClass}`}>
+        {text}
+      </p>
     </Link>
   );
 }
