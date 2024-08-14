@@ -1,7 +1,5 @@
-import GoToLink from "../Works/Card/GoToLink";
 import Card from "../Works/Card";
 import coffeeImg from "../../pictures/collection/coffee.jpg";
-import selfPhoto from "../../pictures/self/profile.jpg";
 import Intro from "./Intro";
 
 export default function Home() {
@@ -45,7 +43,6 @@ export default function Home() {
             .
           </p>
         </section>
-        {/* <GoToLink path="/works" text="КЪМ ТВОРБИ" /> */}
       </div>
     </>
   );

@@ -1,4 +1,4 @@
-import GoToLink from "../../Works/Card/GoToLink";
+import GoToLink from "../../../UI/GoToLink";
 import selfPhoto from "../../../pictures/self/profile.jpg";
 
 export default function Intro() {
@@ -44,7 +44,11 @@ export default function Intro() {
           -лауреат на много национални и международни конкурси
           <br />
           <div className="button-container w-32 md:w-80 mx-auto">
-            <GoToLink path={"/forme"} text={"НАУЧЕТЕ ПОВЕЧЕ"} />
+            <GoToLink
+              path={"/forme"}
+              text={"НАУЧЕТЕ ПОВЕЧЕ"}
+              className={"bg-teal-400 hover:bg-teal-600 rounded-2xl w-48 h-9"}
+            />
           </div>
         </p>
       </section>

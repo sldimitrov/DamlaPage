@@ -6,7 +6,7 @@ export default function SectionTemplate({ children, title, subtitle = "" }) {
         id="path"
       >
         <header className="flex items-center flex-col">
-          <h2 className="text-black mt-4" id="works-title">
+          <h2 className="text-black" id="works-title">
             {title}
           </h2>
           <h2

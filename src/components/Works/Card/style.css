@@ -16,6 +16,10 @@
   max-height: 465px;
 }
 
+.card-body {
+  height: 400px;
+}
+
 @media screen and (max-width: 460px) {
   .card {
     max-width: 220px;

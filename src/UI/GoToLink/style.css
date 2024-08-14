@@ -1,11 +1,3 @@
-#goToBtn {
-  color: white;
-}
-
-#goToBtn:hover {
-  background-color: rgb(6, 85, 213);
-}
-
 .nav-buttons {
   display: flex;
   justify-content: center;

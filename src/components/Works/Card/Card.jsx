@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import GoToLink from "./GoToLink";
+import GoToLink from "../../../UI/GoToLink";
 
 export default function Card({ img, title, subtitle, description, path }) {
   useEffect(() => {
@@ -9,7 +9,7 @@ export default function Card({ img, title, subtitle, description, path }) {
   return (
     <div className="card m-2" id="card1">
       <img src={img} className="card-img-top" alt="front of the book" />
-      <div className="card-body">
+      <div className="card-body flex flex-col justify-between">
         <h2 className="card-title text-center" id="work-title">
           {title}
         </h2>
@@ -19,7 +19,11 @@ export default function Card({ img, title, subtitle, description, path }) {
         <p className="card-text p-3 m-1 mt-3 font-medium text-lg bg-slate-100 rounded-md">
           &ensp;{description}
         </p>
-        <GoToLink path={path} text="ПРОЧЕТИ МЕ" />
+        <GoToLink
+          path={path}
+          text="ПРОЧЕТИ МЕ"
+          className={"bg-cyan-400 hover:bg-cyan-500 rounded-2xl w-48 h-9"}
+        />
       </div>
     </div>
   );

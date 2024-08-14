@@ -1,14 +1,17 @@
 import SectionTemplate from "../../UI/SectionTemplate";
-import GoToLink from "../../components/Works/Card/GoToLink/GoToLink";
+import GoToLink from "../../UI/GoToLink";
 
 export default function PageTemplate({ title, text, prevPath, nextPath }) {
+  const goToBtnClass = "bg-slate-300 hover:bg-slate-400 rounded-2xl w-24 h-9";
+
   return (
     <SectionTemplate title={title}>
       <div className="flex h-100 flex-col pt-4">
         <p className="text-black text-left md:m-3">{text}</p>
-        <div className="flex gap sm:gap-1 md:gap-5">
+        <div className="flex gap-3 sm:gap-1 md:gap-5">
           <GoToLink
             path={prevPath}
+            className={goToBtnClass}
             text={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -27,6 +30,7 @@ export default function PageTemplate({ title, text, prevPath, nextPath }) {
           />
           <GoToLink
             path="/works"
+            className={goToBtnClass}
             text={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,6 +46,7 @@ export default function PageTemplate({ title, text, prevPath, nextPath }) {
           />
           <GoToLink
             path={nextPath}
+            className={goToBtnClass}
             text={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
