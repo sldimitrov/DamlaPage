@@ -108,6 +108,15 @@ export default function Footer() {
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
               Контакти
             </h5>
+            <p className="mb-1">
+              <a
+                className="text-gray-300 text-base  font-serif hover:text-blue-200 underline"
+                href="contactform"
+              >
+                контактната ни форма
+              </a>
+            </p>
+
             <p>
               <i className="fas fa-home mr-3"> Chernograd, Burgas, BG</i>
             </p>
@@ -123,16 +132,19 @@ export default function Footer() {
         <div className=" flex justify-around">
           <div className="bottom">
             <div className="w-64">
-              <p id="copyright" className="w-64">
-                Copyright 2024 All rights reserved by:
-                <a
-                  id="developer-insta"
-                  href="https://www.instagram.com/sldimitrovv_/"
-                  target="_blank"
+              <a
+                id="developer-insta"
+                href="https://www.instagram.com/sldimitrovv_/"
+                target="_blank"
+              >
+                <p
+                  id="copyright"
+                  className="w-64 text-gray-200 hover:text-gray-400"
                 >
-                  <strong className="text-warning"> Slavi Dimitrov</strong>
-                </a>
-              </p>
+                  Copyright 2024 All rights reserved by:
+                  <strong className="text-yellow-300"> Slavi Dimitrov</strong>
+                </p>
+              </a>
             </div>
             <div className="col-md-5 col-lg-4">
               <div className="text-center text-md-right">

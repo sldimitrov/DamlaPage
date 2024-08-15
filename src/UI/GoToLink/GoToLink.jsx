@@ -14,7 +14,7 @@ export default function GoToLink({
       {...props}
       className={`nav-buttons flex justify-center w-full mt-2 ${className}`}
     >
-      <p className={`nav-buttons text-black text-center text-2xl ${textClass}`}>
+      <p className={`nav-buttons text-black text-center ${textClass}`}>
         {text}
       </p>
     </Link>

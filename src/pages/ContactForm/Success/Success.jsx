@@ -1,8 +1,6 @@
 import GoToLink from "../../../UI/GoToLink";
 
 export default function Success() {
-  const textCls = "text-white text-center text-2xl";
-
   return (
     <div
       className="flex justify-around flex-col w-full mx-auto"
@@ -27,17 +25,19 @@ export default function Success() {
         <GoToLink
           path={"/works"}
           text="Прочети някоя творба"
-          className="bg-white rounded-md p-1"
+          className="bg-white rounded-md p-2"
           textClass="text-black text-2xl"
         />
         <GoToLink
           path={"/forme"}
           text="Научи повече за автора"
-          className="bg-white rounded-md p-1"
+          className="bg-white hover:bg-blue-300 rounded-md p-2"
           textClass="text-black text-2xl"
         />
       </div>
-      <h2 className={textCls}>Очаквайте отговор възможно най-скоро.</h2>
+      <h2 className="text-white text-center text-xl">
+        Очаквайте отговор възможно най-скоро.
+      </h2>
     </div>
   );
 }
