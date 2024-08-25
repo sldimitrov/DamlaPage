@@ -9,16 +9,17 @@ import {
 } from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/plugins/captions.css";
 
-export default function LightBox({ self, slides }) {
+export default function LightBox({ text, self, slides }) {
   const [open, setOpen] = useState();
 
   return (
     <div className="w-full flex justify-center">
       <button
         onClick={() => setOpen(true)}
-        className="text-black font-sans text-xl md:text-3xl bg-gray-200 rounded-md hover:bg-gray-300 w-96 mt-4"
+        id="upperText"
+        className="flex flex-col gap-1 items-center text-black text-xl md:text-3xl bg-gray-200 rounded-md hover:bg-gray-300 w-96 mt-4"
       >
-        Отвори галерия
+        {text}
         <Lightbox
           plugins={[Captions, Download, Fullscreen]}
           captions={{

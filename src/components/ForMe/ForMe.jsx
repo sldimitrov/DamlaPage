@@ -12,7 +12,10 @@ export default function ForMe() {
     <>
       <SectionTemplate title={"За автора"}>
         <div id="forMePage" className="section-title">
-          <p className="text-black text-center font-sans text-xl md:text-2xl mt-4 md:p-2">
+          <p
+            id="damlaDscr"
+            className="text-black text-center text-xl md:text-2xl mt-4 md:p-2"
+          >
             Дамла Сезгин Кемик е родена на 2 април, 2005 година, в град Айтос.
             От ранна детска възраст проявява интерес към изкуството. Рисува
             откакто се помни, но няма художествено образование. В 4 клас (ОУ
@@ -25,7 +28,7 @@ export default function ForMe() {
             пръчици и шпатули. Новината е отразена по БНТ, БТВ, Нова ТВ, МОН и
             др.
           </p>
-          <LightBox slides={slides} self={myBook} />
+          <LightBox text={"Отвори галерия"} slides={slides} self={myBook} />
 
           <GoToLink
             textClass={"text-center text-3xl text-white font-serif"}

@@ -15,77 +15,47 @@ import tower from "../../pictures/projects/tower.jpg";
 export const slides = [
   {
     src: meAlmanah,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: damlaPresent,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: "https://images.unsplash.com/photo-1508780709619-79562169bc64?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Test",
-    description: "test desc",
   },
   {
     src: muziBurgas,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: podDurvoto,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: civicValues,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: civicValues2,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: civicOpinion,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: "https://images.unsplash.com/photo-1604866830893-c13cafa515d5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Test",
-    description: "test desc",
   },
   {
     src: globus,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: doll2,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: doll,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: shipka,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: tShirt,
-    title: "Test",
-    description: "test desc",
   },
   {
     src: tower,
-    title: "Test",
-    description: "test desc",
   },
 ];

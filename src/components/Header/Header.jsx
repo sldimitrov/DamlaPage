@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from "react";
+import GoToLink from "../../UI/GoToLink/GoToLink";
 
 export default function Header() {
   const [stickyClass, setStickyClass] = useState("");
+  const [isPage, setIsPage] = useState("start");
+
+  const handleClickMenu = ({ page }) => {
+    console.log(page);
+    setIsPage(page);
+  };
 
   const stickNavbar = () => {
     const windowHeight = window.scrollY;
@@ -16,7 +23,7 @@ export default function Header() {
   }, []);
 
   return (
-    <nav id="header">
+    <nav id={`header ${stickyClass}`}>
       <input type="checkbox" id="check" />
       <label htmlFor="check" className="checkbtn">
         <i className="fas fa-angle-double-down" id="dropdown-icon"></i>
@@ -31,27 +38,57 @@ export default function Header() {
       </label>
       <ul id="header-ul">
         <li>
-          <a className="header-a active" href="/">
+          <a
+            className={`header ${isPage === "start" && "active"}`}
+            href="/"
+            onClick={() => {
+              handleClickMenu("start");
+            }}
+          >
             Начало
           </a>
         </li>
         <li>
-          <a className="header-a" href="/forme">
+          <a
+            className={`header-a ${isPage === "forme" && "active"}`}
+            href="/forme"
+            onClick={() => {
+              handleClickMenu("forme");
+            }}
+          >
             За мен
           </a>
         </li>
         <li>
-          <a className="header-a" href="/works">
+          <a
+            className={`header-a ${isPage === "works" && "active"}`}
+            href="/works"
+            onClick={() => {
+              handleClickMenu("works");
+            }}
+          >
             Творби
           </a>
         </li>
         <li>
-          <a className="header-a" href="/achievements">
+          <a
+            className={`header-a ${isPage === "achievements" && "active"}`}
+            href="/achievements"
+            onClick={() => {
+              handleClickMenu("achievements");
+            }}
+          >
             Постижения
           </a>
         </li>
         <li>
-          <a className="header-a" href="/opinions">
+          <a
+            className={`header-a ${isPage === "opinions" && "active"}`}
+            href="/opinions"
+            onClick={() => {
+              handleClickMenu("opinions");
+            }}
+          >
             Отзиви
           </a>
         </li>
