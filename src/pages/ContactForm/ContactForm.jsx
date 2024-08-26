@@ -10,7 +10,9 @@ export default function ContactForm() {
   if (!isSent) {
     return <InputForm handleSubmit={setIsSent} setError={setError} />;
   } else if (isSent === "error") {
-    return <Error errormsg={"Error with handling the connection"} />;
+    return (
+      <Error error={error} errormsg={"Error with handling the connection"} />
+    );
   } else {
     return <Success />;
   }

@@ -9,7 +9,7 @@ export default function SectionTemplate({ children, title, subtitle = "" }) {
           {title}
         </h2>
         <h2
-          className="text-black leading-10 text-lg mt-3 sm:line-height: 1.25;"
+          className="text-black text-center leading-10 text-lg mt-3 sm:line-height: 1.25;"
           id="works-subtitle"
         >
           {subtitle}

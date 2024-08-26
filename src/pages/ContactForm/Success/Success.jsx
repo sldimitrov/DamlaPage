@@ -5,7 +5,7 @@ import SectionTemplate from "../../../UI/SectionTemplate";
 export default function Success() {
   return (
     <Border>
-      <SectionTemplate title={"Съобщението беше изпратено успешно!"}>
+      <SectionTemplate subtitle={"Съобщението беше изпратено успешно!"}>
         <div
           className="flex justify-around flex-col w-full mx-auto"
           id="success-page"
@@ -22,7 +22,7 @@ export default function Success() {
               <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
             </svg>
           </section>
-          <div className="actions flex flex-col h-36 justify-between md:w-72 mx-auto">
+          <div className="actions flex flex-col mt-3 h-36 justify-between md:w-72 mx-auto">
             <GoToLink
               path={"/works"}
               text="Прочети някоя творба"

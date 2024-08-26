@@ -30,8 +30,11 @@ export default function InputForm({ handleSubmit, setError }) {
 
   return (
     <Border>
-      <SectionTemplate title={"Свържи се с автора"}>
-        <div id="contact-form" className="form flex flex-col mx-auto w-10/12">
+      <SectionTemplate subtitle={"Свържи се с автора"}>
+        <div
+          id="contact-form"
+          className="form flex flex-col mt-3 mx-auto w-10/12"
+        >
           <form className="md:mt-10" ref={form} onSubmit={sendEmail}>
             <div className="lg:flex justify-between">
               <div id="personal-info" className="flex gap-3 flex-col md:gap-5">
