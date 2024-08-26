@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import GoToLink from "../../UI/GoToLink/GoToLink";
 
 export default function Header() {
   const [stickyClass, setStickyClass] = useState("");
