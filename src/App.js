@@ -1,7 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home"; // Parts of the UI
-import Footer from "./components/Footer";
-import Header from "./components/Header";
 import Works from "./components/Works"; // Works
 import Almanah from "./pages/Almanah/Almanah";
 import Myfather from "./pages/Myfather/Myfather";
@@ -33,9 +31,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <Header />
       <RouterProvider router={router}></RouterProvider>
-      <Footer />
     </>
   );
 }

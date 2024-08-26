@@ -4,12 +4,13 @@ import GoToLink from "../../UI/GoToLink";
 import LightBox from "../../UI/LightBox";
 import { slides } from "./data";
 import myBook from "../../pictures/self/MeAlmanah.jpg";
+import Border from "../../UI/Border/Border";
 
 export default function ForMe() {
   useScroll();
 
   return (
-    <>
+    <Border>
       <SectionTemplate title={"За автора"}>
         <div id="forMePage" className="section-title">
           <p
@@ -38,6 +39,6 @@ export default function ForMe() {
           />
         </div>
       </SectionTemplate>
-    </>
+    </Border>
   );
 }

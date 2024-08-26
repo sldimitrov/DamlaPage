@@ -1,10 +1,11 @@
 import Card from "../Works/Card";
 import Intro from "./Intro";
 import coffeeImg from "../../pictures/collection/coffee.jpg";
+import Border from "../../UI/Border/Border";
 
 export default function Home() {
   return (
-    <>
+    <Border>
       <div id="home" className="container">
         <Intro />
         <hr className="md:hidden h-3 mt-3" />
@@ -44,6 +45,6 @@ export default function Home() {
           </p>
         </section>
       </div>
-    </>
+    </Border>
   );
 }

@@ -162,7 +162,7 @@ a.active, .header-a:hover {
     font-size: 20px;
     color: white;
   }
-  a:hover, a.active {
+  link:hover, a.active {
     background: none;
     color: #0082e6;
   }

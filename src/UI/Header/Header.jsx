@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   const [stickyClass, setStickyClass] = useState("");
-  const [isPage, setIsPage] = useState("start");
-
-  const handleClickMenu = ({ page }) => {
-    console.log(page);
-    setIsPage(page);
-  };
 
   const stickNavbar = () => {
     const windowHeight = window.scrollY;
@@ -37,59 +32,44 @@ export default function Header() {
       </label>
       <ul id="header-ul">
         <li>
-          <a
-            className={`header ${isPage === "start" && "active"}`}
-            href="/"
-            onClick={() => {
-              handleClickMenu("start");
-            }}
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "active" : "link")}
           >
             Начало
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a
-            className={`header-a ${isPage === "forme" && "active"}`}
-            href="/forme"
-            onClick={() => {
-              handleClickMenu("forme");
-            }}
+          <NavLink
+            to="/forme"
+            className={({ isActive }) => (isActive ? "active" : "link")}
           >
             За мен
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a
-            className={`header-a ${isPage === "works" && "active"}`}
-            href="/works"
-            onClick={() => {
-              handleClickMenu("works");
-            }}
+          <NavLink
+            to="/works"
+            className={({ isActive }) => (isActive ? "active" : "link")}
           >
             Творби
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a
-            className={`header-a ${isPage === "achievements" && "active"}`}
-            href="/achievements"
-            onClick={() => {
-              handleClickMenu("achievements");
-            }}
+          <NavLink
+            to="/achievements"
+            className={({ isActive }) => (isActive ? "active" : "link")}
           >
-            Постижения
-          </a>
+            За мен
+          </NavLink>
         </li>
         <li>
-          <a
-            className={`header-a ${isPage === "opinions" && "active"}`}
-            href="/opinions"
-            onClick={() => {
-              handleClickMenu("opinions");
-            }}
+          <NavLink
+            to="/opinions"
+            className={({ isActive }) => (isActive ? "active" : "link")}
           >
             Отзиви
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>
