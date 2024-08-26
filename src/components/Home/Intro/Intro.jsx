@@ -15,6 +15,7 @@ export default function Intro() {
           <img
             className="rounded-full w-auto h-auto shadow-md dark:shadow-gray-300"
             src={selfPhoto}
+            fetchPriority="high"
             alt="image description"
           ></img>
         </figure>

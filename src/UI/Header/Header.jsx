@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import NavTab from "./NavTab";
 
 export default function Header() {
   const [stickyClass, setStickyClass] = useState("");
@@ -31,46 +32,11 @@ export default function Header() {
         </a>
       </label>
       <ul id="header-ul">
-        <li>
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? "active" : "link")}
-          >
-            Начало
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/forme"
-            className={({ isActive }) => (isActive ? "active" : "link")}
-          >
-            За мен
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/works"
-            className={({ isActive }) => (isActive ? "active" : "link")}
-          >
-            Творби
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/achievements"
-            className={({ isActive }) => (isActive ? "active" : "link")}
-          >
-            За мен
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/opinions"
-            className={({ isActive }) => (isActive ? "active" : "link")}
-          >
-            Отзиви
-          </NavLink>
-        </li>
+        <NavTab path={""} text={"Начало"} />
+        <NavTab path={"forme"} text={"За мен"} />
+        <NavTab path={"works"} text={"Творби"} />
+        <NavTab path={"achievements"} text={"Постижения"} />
+        <NavTab path={"opinions"} text={"Отзиви"} />
       </ul>
     </nav>
   );

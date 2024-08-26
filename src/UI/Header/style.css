@@ -162,9 +162,12 @@ a.active, .header-a:hover {
     font-size: 20px;
     color: white;
   }
-  link:hover, a.active {
+  a.active {
     background: none;
     color: #0082e6;
+  }
+  .link:hover {
+    background-color: #0082e6;
   }
   #check:checked ~ ul {
     left: 0;
