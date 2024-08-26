@@ -11,20 +11,28 @@ import Achievements from "./components/Achievements";
 import Opinions from "./components/Opinions";
 import MathLove from "./pages/MathLove";
 import ContactForm from "./pages/ContactForm";
+import Border from "./UI/Border/Border";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> }, // Sections
-  { path: "/forme", element: <ForMe /> },
-  { path: "/works", element: <Works /> },
-  { path: "/achievements", element: <Achievements /> },
-  { path: "/opinions", element: <Opinions /> },
-  { path: "/almanah", element: <Almanah /> }, // Works
-  { path: "/Myfather", element: <Myfather /> },
-  { path: "/democracy", element: <Democracy /> },
-  { path: "/coffee", element: <Coffee /> },
-  { path: "/human", element: <Human /> },
-  { path: "/mathlove", element: <MathLove /> },
-  { path: "/contactform", element: <ContactForm /> }, // Additional
+  {
+    path: "/",
+    element: <Border />,
+    errorElement: <p>Error Page here soon</p>,
+    children: [
+      { index: true, element: <Home /> }, // Sections
+      { path: "forme", element: <ForMe /> },
+      { path: "works", element: <Works /> },
+      { path: "achievements", element: <Achievements /> },
+      { path: "opinions", element: <Opinions /> },
+      { path: "almanah", element: <Almanah /> }, // Works
+      { path: "Myfather", element: <Myfather /> },
+      { path: "democracy", element: <Democracy /> },
+      { path: "coffee", element: <Coffee /> },
+      { path: "human", element: <Human /> },
+      { path: "mathlove", element: <MathLove /> },
+      { path: "contactform", element: <ContactForm /> }, // Additional
+    ],
+  },
 ]);
 
 // App.jsx

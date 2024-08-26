@@ -6,8 +6,6 @@ import { useState } from "react";
 import Awards from "./Awards";
 import award from "../../pictures/awards/gold.jpg";
 import Block from "../../UI/Block";
-import Header from "../../UI/Header";
-import Footer from "../../UI/Footer";
 
 export default function Achievements() {
   const [isShowed, setIsShowed] = useState();
@@ -20,7 +18,6 @@ export default function Achievements() {
 
   return (
     <>
-      <Header />
       <SectionTemplate
         title={"Постижения"}
         subtitle="Научи малко за моите изяви!"
@@ -113,7 +110,6 @@ export default function Achievements() {
           {isShowed && <Awards />}
         </section>
       </SectionTemplate>
-      <Footer />
     </>
   );
 }
