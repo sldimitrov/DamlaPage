@@ -12,12 +12,13 @@ import Opinions from "./components/Opinions";
 import MathLove from "./pages/MathLove";
 import ContactForm from "./pages/ContactForm";
 import Border from "./UI/Border/Border";
+import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Border />,
-    errorElement: <p>Error Page here soon</p>,
+    errorElement: <ErrorPage error="Error download resources" />,
     children: [
       { index: true, element: <Home /> }, // Sections
       { path: "forme", element: <ForMe /> },
