@@ -9,8 +9,9 @@ Tired of the same old stuffy author biographies? Get ready to dive into a world 
 
 ## Live demo: 🔗 
 https://github.com/user-attachments/assets/6f9dc653-192a-4d59-8057-7f4bbc4c173c
-
-
+https://github.com/user-attachments/assets/2ff51dbf-97c3-4097-bb54-54b80022527a
+https://github.com/user-attachments/assets/f939111d-4146-4e20-83f9-12fa5291690b
+https://github.com/user-attachments/assets/afa118f6-2012-439f-b190-06b57ae9719a
 
 ## Feedback 💭💭  
 * *In case you want to share your thoughs about my project you are free to do so at slavidimitrov54@gmail.com*
