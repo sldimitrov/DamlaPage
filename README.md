@@ -4,10 +4,8 @@
 # Description: #
 <img align="right" width="150" height="150" src="https://github.com/sldimitrov/ReactWeatherApp/assets/135168991/411e28f1-4dd0-4c6c-8758-1ddeff414195"/>
 
-Project Description: A React-Based Blog for a Famous Bulgarian Author
-Project Goal:
-
-To create a dynamic and user-friendly web application using React that showcases the works, biography, and other relevant information of a renowned Bulgarian author.
+Unleashing the Power of Words: A Digital Tribute to Damla Kemik.💬
+Tired of the same old stuffy author biographies? Get ready to dive into a world where words come alive! Our React-powered blog is more than just a digital bookshelf; it's a portal to the author's mind. From captivating blog posts to a quirky author bio, we've got everything you need to become a true fan. So, buckle up and prepare to be enchanted by the literary genius of Damla Kemik!
 
 ## Table of contents
 * [Functionality Live Demo](https://github.com/sldimitrov/ReactWeatherApp/blob/main/README.md#live-demo-of-the-functionality-)
