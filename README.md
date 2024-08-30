@@ -8,12 +8,8 @@ Unleashing the Power of Words: A Digital Tribute to Damla Kemik.💬<br/>
 Tired of the same old stuffy author biographies? Get ready to dive into a world where words come alive! Our React-powered blog is more than just a digital bookshelf; it's a portal to the author's mind. From captivating blog posts to a quirky author bio, we've got everything you need to become a true fan. So, buckle up and prepare to be enchanted by the literary genius of Damla Kemik!
 
 ## Live demo: 🔗 
-<p>
- <a href='https://github.com/user-attachments/assets/6f9dc653-192a-4d59-8057-7f4bbc4c173c' />
- </p>
-https://github.com/user-attachments/assets/2ff51dbf-97c3-4097-bb54-54b80022527a
-https://github.com/user-attachments/assets/f939111d-4146-4e20-83f9-12fa5291690b
-https://github.com/user-attachments/assets/afa118f6-2012-439f-b190-06b57ae9719a
+
+https://github.com/user-attachments/assets/6f9dc653-192a-4d59-8057-7f4bbc4c173c
 
 ## Feedback 💭💭  
 * *In case you want to share your thoughs about my project you are free to do so at slavidimitrov54@gmail.com*
