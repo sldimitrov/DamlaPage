@@ -7,18 +7,10 @@
 Unleashing the Power of Words: A Digital Tribute to Damla Kemik.💬<br/>
 Tired of the same old stuffy author biographies? Get ready to dive into a world where words come alive! Our React-powered blog is more than just a digital bookshelf; it's a portal to the author's mind. From captivating blog posts to a quirky author bio, we've got everything you need to become a true fan. So, buckle up and prepare to be enchanted by the literary genius of Damla Kemik!
 
-## Table of contents
-* [Functionality Live Demo](https://github.com/sldimitrov/ReactWeatherApp/blob/main/README.md#live-demo-of-the-functionality-)
-* [Feedback](https://github.com/sldimitrov/ReactWeatherApp/blob/main/README.md#feedback-)
-* [Knowledge stack](https://github.com/sldimitrov/ReactWeatherApp/blob/main/README.md#knowledge-stack-%EF%B8%8F)
-* [Setup/Installation](https://github.com/sldimitrov/ReactWeatherApp/blob/main/README.md#setup--installation-)
-* [Screenshots](https://github.com/sldimitrov/ReactWeatherApp/blob/main/README.md#screenshots)
-* [Status](https://github.com/sldimitrov/ReactWeatherApp/blob/main/README.md#status-)
-* [Credits](https://github.com/sldimitrov/ReactWeatherApp/blob/main/README.md#credits-)
-* [License](https://github.com/sldimitrov/ReactWeatherApp/blob/main/README.md#license-%EF%B8%8F)
+## Live demo: 🔗 
+https://github.com/user-attachments/assets/6f9dc653-192a-4d59-8057-7f4bbc4c173c
 
-## Live demo of the functionality: 🔗 
-[https://github.com/sldimitrov/Web/assets/135168991/41c57568-3de4-469f-b46b-392aaf3ad847](https://github.com/sldimitrov/ReactWeatherApp/assets/135168991/3ae2d7ed-a9ae-41b7-9843-e18a628effcd)
+
 
 ## Feedback 💭💭  
 * *In case you want to share your thoughs about my project you are free to do so at slavidimitrov54@gmail.com*
