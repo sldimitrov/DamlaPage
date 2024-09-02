@@ -1,24 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import React from "react";
 import NavTab from "./NavTab";
 
 export default function Header() {
-  const [stickyClass, setStickyClass] = useState("");
-
-  const stickNavbar = () => {
-    const windowHeight = window.scrollY;
-    setStickyClass(windowHeight > 500 ? "sticky-nav" : "");
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", stickNavbar);
-    return () => {
-      window.removeEventListener("scroll", stickNavbar);
-    };
-  }, []);
-
   return (
-    <nav id={`header ${stickyClass}`}>
+    <nav id="header">
       <input type="checkbox" id="check" />
       <label htmlFor="check" className="checkbtn">
         <i className="fas fa-angle-double-down" id="dropdown-icon"></i>
