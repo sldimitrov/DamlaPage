@@ -1,6 +1,10 @@
+import { motion } from "framer-motion";
+
 export default function SectionTemplate({ children, title, subtitle = "" }) {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
       className="container p-auto bg-white opacity-90 rounded-lg mt-3 mb-3"
       id="path"
     >
@@ -34,6 +38,6 @@ export default function SectionTemplate({ children, title, subtitle = "" }) {
           </h6>
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 }
