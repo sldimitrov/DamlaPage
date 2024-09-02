@@ -65,7 +65,7 @@ export default function Intro() {
           -лауреат на много национални и международни конкурси
           <br />
           <motion.div
-            whileHover={{ scale: 1.2, mass: 300, backgroundColor: "blue" }}
+            whileHover={{ scale: 1.2, mass: 300 }}
             transition={{ type: "spring" }}
             className="button-container bg-white rounded-md w-32 mt-3 md:w-80 mx-auto"
           >

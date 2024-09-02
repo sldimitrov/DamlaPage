@@ -1,14 +1,30 @@
 import React from "react";
 import NavTab from "./NavTab";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function Header() {
+  const [isMenuClicked, setIsMenuClicked] = useState();
+
+  const handleClickMenu = () => {
+    setIsMenuClicked(!isMenuClicked);
+  };
+
   return (
     <nav id="header">
       <input type="checkbox" id="check" />
-      <label htmlFor="check" className="checkbtn">
-        <i className="fas fa-angle-double-down" id="dropdown-icon"></i>
-      </label>
+      <motion.label
+        animate={{ rotate: isMenuClicked ? 0 : 90, duration: 0.4 }}
+        exit={{ rotate: 90 }}
+        htmlFor="check"
+        className="checkbtn"
+      >
+        <i
+          className="fas fa-angle-double-down"
+          onClick={handleClickMenu}
+          id="dropdown-icon"
+        ></i>
+      </motion.label>
       <label
         id="damla-page"
         className="logo text-md  text-center text-3xl font-bold text-white"
