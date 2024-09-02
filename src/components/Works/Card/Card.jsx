@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 import GoToLink from "../../../UI/GoToLink";
 
 export default function Card({ img, title, subtitle, description, path }) {
@@ -19,12 +20,16 @@ export default function Card({ img, title, subtitle, description, path }) {
         <p className="card-text p-3 m-1 mt-3 font-medium text-lg bg-slate-100 rounded-md">
           &ensp;{description}
         </p>
-        <GoToLink
-          path={path}
-          text="ПРОЧЕТИ МЕ"
-          textClass={"text-2xl"}
-          className={"bg-cyan-400 hover:bg-cyan-500 rounded-2xl w-48 h-9"}
-        />
+        <motion.div
+          whileHover={{ scale: 1.1, mass: 300 }}
+          className="bg-black rounded-md m-2 pb-1"
+        >
+          <GoToLink
+            path={path}
+            text="ПРОЧЕТИ МЕ"
+            textClass={"text-2xl text-white"}
+          />
+        </motion.div>
       </div>
     </div>
   );

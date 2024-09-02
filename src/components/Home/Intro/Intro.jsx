@@ -5,25 +5,36 @@ import { motion, useScroll, useTransform } from "framer-motion";
 export default function Intro() {
   const { scrollY } = useScroll();
 
-  const scaleText = useTransform(scrollY, [0, 300], [0.9, 1.2]);
+  const scaleName = useTransform(scrollY, [150, 130, 100], [1, 1.1, 1.2]);
+  const scaleText = useTransform(scrollY, [0, 300, 250], [0.9, 1.2, 1.1]);
+  const scaleInfo = useTransform(scrollY, [50, 250, 200], [0.9, 1.1, 1]);
 
   return (
     <div id="intro">
       <div className="flex flex-col justify-center items-center gap-3 md:flex-row h-full  w-full">
-        <h1
+        <motion.h1
+          style={{ scale: scaleName }}
           className="font-extrabold text-center md:mt-10 text-5xl md:text-6xl text-white"
           id="heading"
         >
           Дамла Кемик
-        </h1>
-        <figure className="w-60">
+        </motion.h1>
+        <motion.figure
+          whileHover={{
+            scale: 0.9,
+            mass: 200,
+            rotate: 5,
+            rotateX: 15,
+          }}
+          className="w-60"
+        >
           <img
             className="rounded-full w-auto h-auto shadow-md dark:shadow-gray-300"
             src={selfPhoto}
             fetchpriority="high"
             alt="image description"
           ></img>
-        </figure>
+        </motion.figure>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +54,7 @@ export default function Intro() {
         Думите са моят начин да въздействам върху чувствата на хората.
       </motion.h2>
       <hr className="h-3" />
-      <section id="author-info">
+      <motion.section style={{ scale: scaleInfo }} id="author-info">
         <p className="w-full text-center md:text-xl font-thin">
           -млад писател, есеист, поет
           <br />
@@ -53,15 +64,19 @@ export default function Intro() {
           <br />
           -лауреат на много национални и международни конкурси
           <br />
-          <div className="button-container w-32 md:w-80 mx-auto">
+          <motion.div
+            whileHover={{ scale: 1.2, mass: 300, backgroundColor: "blue" }}
+            transition={{ type: "spring" }}
+            className="button-container bg-white rounded-md w-32 mt-3 md:w-80 mx-auto"
+          >
             <GoToLink
               path={"/forme"}
               text={"НАУЧЕТЕ ПОВЕЧЕ"}
-              className={"bg-blue-300 hover:bg-blue-500 rounded-2xl w-48 h-9"}
+              className={" rounded-2xl w-48 h-9"}
             />
-          </div>
+          </motion.div>
         </p>
-      </section>
+      </motion.section>
     </div>
   );
 }

@@ -1,8 +1,13 @@
 import Card from "../Works/Card";
 import Intro from "./Intro";
+import { motion, useScroll, useTransform } from "framer-motion";
 import coffeeImg from "../../pictures/collection/coffee.jpg";
 
 export default function Home() {
+  const { scrollY } = useScroll();
+
+  const scaleText = useTransform(scrollY, [0, 100, 170], [1.2, 1.1, 0.9]);
+
   return (
     <div id="home" className="container">
       <Intro />
@@ -33,12 +38,14 @@ export default function Home() {
         <p className="text-xl mt-1 md:text-xl text-center md:mt-7">
           Ако желаете да организирате среща на Дамла Кемик с Вашите ученици
           изпратете мейл с&ensp;
-          <a
-            className="text-gray-300 font-serif hover:text-blue-500 underline"
-            href="contactform"
-          >
-            контактната ни форма
-          </a>
+          <motion.span whileHover={{ scale: 1.2, mass: 300 }}>
+            <a
+              className="text-gray-300 font-serif hover:text-purple-400 underline"
+              href="contactform"
+            >
+              контактната ни форма
+            </a>
+          </motion.span>
           .
         </p>
       </section>

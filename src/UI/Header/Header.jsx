@@ -1,5 +1,6 @@
 import React from "react";
 import NavTab from "./NavTab";
+import { AnimatePresence, motion } from "framer-motion";
 
 export default function Header() {
   return (
