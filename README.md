@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Project Title: 🌤️ #
+## `DamlaPage`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description: #
+<img align="right" width="150" height="150" src="https://github.com/sldimitrov/ReactWeatherApp/assets/135168991/411e28f1-4dd0-4c6c-8758-1ddeff414195"/>
 
-## Available Scripts
+Unleashing the Power of Words: A Digital Tribute to Damla Kemik.💬<br/>
+Tired of the same old stuffy author biographies? Get ready to dive into a world where words come alive! Our React-powered blog is more than just a digital bookshelf; it's a portal to the author's mind. From captivating blog posts to a quirky author bio, we've got everything you need to become a true fan. So, buckle up and prepare to be enchanted by the literary genius of Damla Kemik!
 
-In the project directory, you can run:
+## Live demo: 🔗 
 
-### `npm start`
+https://github.com/user-attachments/assets/6f9dc653-192a-4d59-8057-7f4bbc4c173c
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Feedback 💭💭  
+* *In case you want to share your thoughs about my project you are free to do so at slavidimitrov54@gmail.com*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Knowledge stack: <⚛️/> 
+ ### Many core principles in React were applied as I have been developing this project.
+<img align="right" width="340" height="190" alt="react core concepts" src="https://github.com/sldimitrov/ReactWeatherApp/assets/135168991/7b864aeb-9cf4-49a4-905e-ec10290f2932" /> 
+<p>
+ ⚙️ Lets begin with the JSX syntax that is something specific for this framework.
+Another crucial concept I have used in action are the components. They involve working with HTML, CSS and JS in order to being develop. <br/>
+ I have used useContext to derive the state everywhere I need it. Other hooks that were implement in my project are useState, useEffect, useMemo and useCallback.
+ 
+ ### To sum up the tech-stack:
+* Core: `React, JavaScript, HTML` <br/>
+* Additional libraries: `Tailwind`
+</p> 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup / Installation: 💻 
 
-### `npm run build`
+### Install React Weather APP with npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* First make sure that you have `node` and `npm` installed on your machine.
+* After that, `clone` the `repo` somewhere locally.
+* Open it in your favourite `code editor` and type this in the terminal:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm install
+```
+*With this command you install all packages that you need to run the React project.*
+* After the *node_modules* folder is being install type:
+```bash
+  npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+## Status: 📶
+* All tasks that were given to me for this project are completed. ✅ <br/> 
+Although, I am not satisfied completely because there is always a thing or two to improve. <br/>
+*Stay tuned for more!* 📈
 
-### `npm run eject`
+## Credits: 📝
+### This project is course work for my internship in Orbis. <br/>
+* Here I want to express my gratitude for the author Ms. `Damla Kemik` 🙏 <br/>
+She was the UI/UX designer most of the time. Not also that but she never missed to find some typo's not in my code but in the text instead!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License: ©️
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
