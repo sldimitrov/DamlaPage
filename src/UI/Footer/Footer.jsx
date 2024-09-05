@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function Footer() {
   const customStyle = {
     width: `28px`,
@@ -18,7 +20,7 @@ export default function Footer() {
                 href="https://www.burgas.bg/bg/novini/za-parvi-pat-vrachiha-literaturnite-nagradi-na-imeto-na-yanaki-petrov/"
                 className="text-white"
               >
-                „Янаки Петров“
+                <span className="footer-links">„Янаки Петров“</span>
               </a>
             </p>
             <p>
@@ -27,7 +29,7 @@ export default function Footer() {
                 href="https://www.eurochicago.com/2019/11/i-pero-2019/"
                 className="text-white"
               >
-                „Изящното перо“
+                <span className="footer-links">„Изящното перо“</span>
               </a>
             </p>
             <p>
@@ -36,7 +38,7 @@ export default function Footer() {
                 href="https://medianews.bg/bg/a/nagradikha-nay-dobrite-tvorbi-v-konkursa-georgi-todorov-v-mezdra"
                 className="text-white"
               >
-                „Георги Тодоров“
+                <span className="footer-links">„Георги Тодоров“</span>
               </a>
             </p>
             <p>
@@ -45,7 +47,7 @@ export default function Footer() {
                 href="https://www.burgas.bg/bg/novini/nagrazhdavat-otlichenite-v-natsionalen-konkurs-za-lyubovna-proza-mlad-razkazvach-na-imeto-na-atanas-radoynov/"
                 className="text-white"
               >
-                „Млад разказвач“
+                <span className="footer-links">„Млад разказвач“</span>
               </a>
             </p>
             <p>
@@ -54,11 +56,14 @@ export default function Footer() {
                 href="https://www.facebook.com/sdprogbarzakov"
                 className="text-white"
               >
-                „Иван Бързаков“
+                <span className="footer-links">„Иван Бързаков“</span>
               </a>
             </p>
             <p>
-              <a href="/achievements" className="text-gray-400">
+              <a
+                href="/achievements"
+                className="text-gray-400 hover:text-white"
+              >
                 и още много други
               </a>
             </p>
@@ -110,7 +115,7 @@ export default function Footer() {
             </h5>
             <p className="mb-1">
               <a
-                className="text-gray-300 text-base  font-serif hover:text-blue-200 underline"
+                className="text-gray-300 text-base  font-serif hover:text-yellow-200 underline"
                 href="contactform"
               >
                 контактната ни форма
@@ -142,7 +147,9 @@ export default function Footer() {
             <div className="col-md-5 col-lg-4">
               <div className="text-center text-md-right">
                 <div className="social-apps ml-20 md:ml-36 flex w-24 justify-between">
-                  <a
+                  <motion.a
+                    whileHover={{ scale: 1.2, mass: 300, duration: 0.6 }}
+                    whileTap={{ rotate: 360 }}
                     target="_blank"
                     href="https://www.facebook.com/profile.php?id=100049866423323"
                     className="btn-floating btn-sm text-white"
@@ -157,7 +164,7 @@ export default function Footer() {
                     >
                       <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
                     </svg>
-                  </a>
+                  </motion.a>
                   {/* Instagram */}
                   {/* <a
                     target="_blank"

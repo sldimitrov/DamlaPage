@@ -33,7 +33,7 @@ export default function Header() {
           Damla's Page
         </a>
       </label>
-      <ul id="header-ul">
+      <ul className={isMenuClicked ? "header-ul" : "header-ul-active"}>
         <NavTab path={""} text={"Начало"} />
         <NavTab path={"forme"} text={"За мен"} />
         <NavTab path={"works"} text={"Творби"} />

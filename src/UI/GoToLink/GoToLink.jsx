@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export default function GoToLink({
   path,
@@ -8,15 +9,20 @@ export default function GoToLink({
   ...props
 }) {
   return (
-    <Link
-      to={path}
-      id="goToBtn"
-      {...props}
-      className={`nav-buttons flex justify-center w-full mt-2 ${className}`}
+    <motion.span
+      whileHover={{ scale: 1.1, mass: 150, duration: 0.6 }}
+      className="w-full"
     >
-      <p className={`nav-buttons text-black text-center ${textClass}`}>
-        {text}
-      </p>
-    </Link>
+      <Link
+        to={path}
+        id="goToBtn"
+        {...props}
+        className={`nav-buttons flex justify-center w-full mt-2 ${className}`}
+      >
+        <p className={`nav-buttons text-black text-center ${textClass}`}>
+          {text}
+        </p>
+      </Link>
+    </motion.span>
   );
 }
