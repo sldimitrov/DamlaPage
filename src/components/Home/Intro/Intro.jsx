@@ -10,7 +10,7 @@ export default function Intro() {
   const scaleInfo = useTransform(scrollY, [50, 250, 200], [0.9, 1.1, 1]);
 
   return (
-    <div id="intro">
+    <motion.div animate={{ opacity: [0.5, 1], scale: [0.5, 1] }} id="intro">
       <div className="flex flex-col justify-center items-center gap-3 md:flex-row h-full  w-full">
         <motion.h1
           style={{ scale: scaleName }}
@@ -77,6 +77,6 @@ export default function Intro() {
           </motion.div>
         </p>
       </motion.section>
-    </div>
+    </motion.div>
   );
 }

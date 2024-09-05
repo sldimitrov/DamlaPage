@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function View({ photo, name, info, opinion, index }) {
   let leftPhoto, rightPhoto;
   index === 1 ? (leftPhoto = photo) : (rightPhoto = photo);
@@ -5,12 +7,13 @@ export default function View({ photo, name, info, opinion, index }) {
   let imgClasses = "writer h-auto max-w-full rounded-md shadow-2xl";
 
   return (
-    <div
+    <motion.div
       id="opinions-container"
       className="flex flex-col md:flex-row justify-around m-3"
     >
       {leftPhoto && (
-        <img
+        <motion.img
+          whileHover={{ scale: 1.1, x: -20, y: 20, duration: 0.5 }}
           className={imgClasses}
           src={photo}
           alt="enlightened person that gave his opinion"
@@ -36,6 +39,6 @@ export default function View({ photo, name, info, opinion, index }) {
         />
       )}
       <hr className="h-1 bg-grey" />
-    </div>
+    </motion.div>
   );
 }

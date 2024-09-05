@@ -4,13 +4,22 @@ import GoToLink from "../../UI/GoToLink";
 import LightBox from "../../UI/LightBox";
 import { slides } from "./data";
 import myBook from "../../pictures/self/MeAlmanah.jpg";
+import { motion } from "framer-motion";
 
 export default function ForMe() {
   useScroll();
 
   return (
     <SectionTemplate title={"За автора"}>
-      <div id="forMePage" className="section-title">
+      <motion.div
+        animate={{
+          opacity: [0.5, 1],
+          scale: [0.7, 1],
+          mass: [300, 500],
+        }}
+        id="forMePage"
+        className="section-title"
+      >
         <p
           id="damlaDscr"
           className="text-black text-center text-xl md:text-2xl mt-4 md:p-2"
@@ -34,7 +43,7 @@ export default function ForMe() {
           path="/achievements"
           text="Разгледай постиженията"
         />
-      </div>
+      </motion.div>
     </SectionTemplate>
   );
 }

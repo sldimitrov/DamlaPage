@@ -7,13 +7,17 @@ import mathImg from "../../pictures/collection/math.webp";
 import coffeeImg from "../../pictures/collection/coffee.jpg";
 import Card from "./Card";
 import useScroll from "../../hooks/useScroll";
+import { motion } from "framer-motion";
 
 export default function Works() {
   useScroll();
 
   return (
     <SectionTemplate title={"Творби"} subtitle="Издадени сборници">
-      <section id="card-section">
+      <motion.section
+        animate={{ scale: [0.7, 1], opacity: [0.7, 1] }}
+        id="card-section"
+      >
         <Card
           path={"/almanah"}
           img={almanahImg}
@@ -59,7 +63,7 @@ export default function Works() {
           subtitle={"5 минути за кафе"}
           description="Час на смъртта- 11:11. Най-големият ми кошмар се сбъдна…"
         />
-      </section>
+      </motion.section>
     </SectionTemplate>
   );
 }

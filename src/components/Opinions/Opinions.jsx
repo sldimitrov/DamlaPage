@@ -4,13 +4,17 @@ import firstPoetPh from "../../pictures/poets/mitko.png";
 import secondPoetPh from "../../pictures/poets/kalin.jpg";
 import thirdPoetPh from "../../pictures/poets/snezhana_galcheva.jpg";
 import useScroll from "../../hooks/useScroll";
+import { motion } from "framer-motion";
 
 export default function Opinions() {
   useScroll();
 
   return (
     <SectionTemplate title={"Отзиви"}>
-      <section className="section-title">
+      <motion.section
+        animate={{ opacity: [0.7, 1], scale: [0.7, 1] }}
+        className="section-title"
+      >
         <View
           index={1}
           photo={firstPoetPh}
@@ -42,7 +46,7 @@ export default function Opinions() {
         развива, за да можем наистина да покажем нивото на българската култура!
         Успех!"'
         />
-      </section>
+      </motion.section>
     </SectionTemplate>
   );
 }

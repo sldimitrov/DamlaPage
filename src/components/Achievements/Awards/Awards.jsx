@@ -3,10 +3,11 @@ import sertificates from "../../../pictures/awards/sertificates.jpg";
 import shipka from "../../../pictures/projects/Shipka.jpg";
 import talking from "../../../pictures/self/talking.jpg";
 import Layout from "./Layout/Layout";
+import { motion } from "framer-motion";
 
 export default function Awards() {
   return (
-    <>
+    <motion.div animate={{ opacity: [0.5, 1], scale: [0.5, 1] }}>
       <h2 className="text-black text-center font-sans text-2xl md:text-3xl mt-3">
         За периода 2023/2024
       </h2>
@@ -148,6 +149,6 @@ export default function Awards() {
       <Paragraph text="Национален ученически конкурс, посветен на 80-тата годишнина от събитията в с.Ястребино (1943)- 2024 година- специална награда" />
       <Paragraph text="Конкурс за рисунка, плакат, фотография и 3D-изображение “Световният климат: мисли глобално, действай локално!”- 2024 година- 1 място" />
       <Paragraph text='Трети национален литературен конкурс "Любовта е извор"- 2024 година- поощрителна награда' />
-    </>
+    </motion.div>
   );
 }

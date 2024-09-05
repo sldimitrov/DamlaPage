@@ -78,7 +78,7 @@ export default function Footer() {
                 href="https://damlakemik.blogspot.com/"
                 className="text-white"
               >
-                Моят Блог
+                <span className="footer-links">Моят Блог</span>
               </a>
             </p>
             <p>
@@ -87,7 +87,7 @@ export default function Footer() {
                 href="https://www.svetilo.org/"
                 className="text-white"
               >
-                Клуб Светило
+                <span className="footer-links">Клуб Светило</span>
               </a>
             </p>
             <p>
@@ -96,7 +96,7 @@ export default function Footer() {
                 href="https://otvadkoritsite.wordpress.com/biblioteca/damlakemik/"
                 className="text-white"
               >
-                Литературен клуб
+                <span className="footer-links">Литературен клуб</span>
               </a>
             </p>
 
@@ -105,7 +105,7 @@ export default function Footer() {
                 href="https://bpoburgas.org/archives/tag/%D0%B4%D0%B0%D0%BC%D0%BB%D0%B0-%D0%BA%D0%B5%D0%BC%D0%B8%D0%BA"
                 className="text-white"
               >
-                Писателска общност Бургас
+                <span className="footer-links">Писателска общност Бургас</span>
               </a>
             </p>
           </div>

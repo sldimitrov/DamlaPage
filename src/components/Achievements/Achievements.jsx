@@ -6,6 +6,7 @@ import { useState } from "react";
 import Awards from "./Awards";
 import award from "../../pictures/awards/gold.jpg";
 import Block from "../../UI/Block";
+import { motion } from "framer-motion";
 
 export default function Achievements() {
   const [isShowed, setIsShowed] = useState();
@@ -22,7 +23,10 @@ export default function Achievements() {
         title={"Постижения"}
         subtitle="Научи малко за моите изяви!"
       >
-        <section className="flex flex-col items-center h-full section-title">
+        <motion.section
+          animate={{ scale: [0.7, 1], opacity: [0.7, 1] }}
+          className="flex flex-col items-center h-full section-title"
+        >
           <div className="achievements h-full mt-3">
             <div className="lg:flex sm:gap-5">
               <div>
@@ -108,7 +112,7 @@ export default function Achievements() {
             />
           )}
           {isShowed && <Awards />}
-        </section>
+        </motion.section>
       </SectionTemplate>
     </>
   );
