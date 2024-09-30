@@ -52,8 +52,7 @@ Although, I am not satisfied completely because there is always a thing or two t
 *Stay tuned for more!* 📈
 
 ## Credits: 📝
-### This project is course work for my internship in Orbis. <br/>
-* Here I want to express my gratitude for the author Ms. `Damla Kemik` 🙏 <br/>
+* Here I want to express my gratitude for the author Ms. `Kemik` 🙏 <br/>
 She was the UI/UX designer most of the time. Not also that but she never missed to find some typo's not in my code but in the text instead!
 
 # License: ©️
